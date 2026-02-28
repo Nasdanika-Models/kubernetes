@@ -46,11 +46,10 @@ public class EcoreGenKubernetesProcessorsFactory {
 	public EcoreGenKubernetesProcessorsFactory(Context context) {
 		this.context = context;
 	}
-	
-	
+		
 	@EPackageNodeProcessorFactory(
-			label = "Risk Model",
-			description = "Risk management model",
+			label = "Kubernetes Model",
+			description = "Model of Kubernetes concepts based on Ecore. The model is generated from the Kubernetes API specification and includes concepts such as Pods, Services, Deployments, etc.",
 			actionPrototype = """
                     app-action:
                       content:

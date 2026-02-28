@@ -1,1236 +1,1236 @@
 {
   "references/eClassifiers/Resource/references/eStructuralFeatures/labels/index.html": {
     "path": "Resource/References/labels",
-    "link-uuid": "a6e88a6e-0f55-4376-813b-00a3a52da5a7",
+    "link-uuid": "612d7cc0-c2f2-466f-b83b-7babd4741976",
     "title": "labels",
     "content": "Type KeyValuePair Multiplicity 0..* Map of string keys and values that can be used to organize and categorize objects. Matches selectors.",
-    "timestamp": 1772303527010
+    "timestamp": 1772303884973
   },
   "references/eSubpackages/configuration/references/eClassifiers/Secret/inheritance.html": {
     "path": "configuration/Secret/Inheritance",
-    "link-uuid": "b69ad74f-7d58-4423-8bc0-7fa53d32a4d1",
+    "link-uuid": "f92c2856-488b-49a2-b512-8c4ec9e9eaec",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527127
+    "timestamp": 1772303885086
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/pods/index.html": {
     "path": "Namespace/References/pods",
-    "link-uuid": "0f4479f1-d7d6-4d6c-abe1-6a4f904bc091",
+    "link-uuid": "68a510fb-6544-46d6-909f-36525a624365",
     "title": "pods",
     "content": "Type Pod Multiplicity 0..* Pods in this namespace.",
-    "timestamp": 1772303526913
+    "timestamp": 1772303884882
   },
   "references/eSubpackages/networking/references/eClassifiers/IngressRule/references/eStructuralFeatures/host/index.html": {
     "path": "networking/IngressRule/Attributes/host",
-    "link-uuid": "6de8e34c-2a33-4e94-b76c-14b59fefb810",
+    "link-uuid": "b9be0333-677e-4c79-af05-d2f21a2f61da",
     "title": "host",
     "content": "Type EString Multiplicity 0..1 Host is the fully qualified domain name of a network host, as defined by RFC 3986.",
-    "timestamp": 1772303527238
+    "timestamp": 1772303885193
   },
   "references/eSubpackages/workloads/references/eClassifiers/EnvVar/index.html": {
     "path": "workloads/EnvVar",
-    "link-uuid": "f60c37a2-aa46-4014-b41c-a673309a8052",
+    "link-uuid": "8747aa19-fdba-4d82-a0f9-d0283bd4703d",
     "title": "EnvVar",
     "content": "An environment variable to set in a container.",
-    "timestamp": 1772303527619
+    "timestamp": 1772303885578
   },
   "references/eSubpackages/configuration/references/eClassifiers/ConfigMap/index.html": {
     "path": "configuration/ConfigMap",
-    "link-uuid": "8f36cd55-02dc-469f-be4e-0fe50e78156c",
+    "link-uuid": "4539a58b-a9a6-4f71-84cf-d922dc618811",
     "title": "ConfigMap",
     "content": "A ConfigMap is an API object used to store non-confidential data in key-value pairs. Pods can consume ConfigMaps as environment variables, command-line arguments, or as configuration files in a volume.",
-    "timestamp": 1772303527093
+    "timestamp": 1772303885056
   },
   "references/eSubpackages/workloads/references/eClassifiers/ContainerPort/references/eStructuralFeatures/hostPort/index.html": {
     "path": "workloads/ContainerPort/Attributes/hostPort",
-    "link-uuid": "4fc3d3e6-00e4-458c-9cc2-c7f9e54cca08",
+    "link-uuid": "46c8dd96-6212-4d09-8817-6516fc5ad0fb",
     "title": "hostPort",
     "content": "Type EInt Multiplicity 0..1 Number of port to expose on the host.",
-    "timestamp": 1772303527516
+    "timestamp": 1772303885470
   },
   "references/eSubpackages/workloads/references/eClassifiers/EnvVar/references/eStructuralFeatures/value/index.html": {
     "path": "workloads/EnvVar/Attributes/value",
-    "link-uuid": "80d3ff87-1f87-4fa8-8064-9e0c0f5a64ab",
+    "link-uuid": "e6c9d452-4550-4f3c-83b6-b829ead9afd0",
     "title": "value",
     "content": "Type EString Multiplicity 0..1 Value of the environment variable. Defaults to empty string.",
-    "timestamp": 1772303527624
+    "timestamp": 1772303885583
   },
   "references/eSubpackages/workloads/references/eClassifiers/Pod/references/eStructuralFeatures/phase/index.html": {
     "path": "workloads/Pod/Attributes/phase",
-    "link-uuid": "60f0558d-d2bf-4e77-bde5-0da980b22d19",
+    "link-uuid": "7d40c80c-7d91-412d-b869-19b7dc97388e",
     "title": "phase",
     "content": "Type EString Multiplicity 0..1 The phase of a Pod is a simple, high-level summary of where the Pod is in its lifecycle. The conditions array, the reason and message fields, and the individual container status arrays contain more detail about the pod&rsquo;s status. Possible values: Pending, Running, Succeeded, Failed, Unknown.",
-    "timestamp": 1772303527686
+    "timestamp": 1772303885645
   },
   "references/eSubpackages/networking/references/eClassifiers/Ingress/references/eStructuralFeatures/rules/index.html": {
     "path": "networking/Ingress/References/rules",
-    "link-uuid": "705ceb72-8016-413b-a8ab-4044a697591b",
+    "link-uuid": "0b8fadf1-e7e1-44bb-8fa3-781b4d75a150",
     "title": "rules",
     "content": "Type IngressRule Multiplicity 0..* A list of host rules used to configure the Ingress.",
-    "timestamp": 1772303527219
+    "timestamp": 1772303885173
   },
   "references/eSubpackages/workloads/references/eClassifiers/Deployment/index.html": {
     "path": "workloads/Deployment",
-    "link-uuid": "8b7f1a6f-1e03-444a-a2c3-d90b8e2f6968",
+    "link-uuid": "803b316c-a7d3-4afe-b7ae-ba1cbc5ed812",
     "title": "Deployment",
     "content": "A Deployment provides declarative updates for Pods and ReplicaSets. You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate.",
-    "timestamp": 1772303527591
+    "timestamp": 1772303885551
   },
   "references/eSubpackages/workloads/references/eClassifiers/CronJob/references/eStructuralFeatures/jobTemplate/index.html": {
     "path": "workloads/CronJob/References/jobTemplate",
-    "link-uuid": "ad955c9a-b129-4d10-912a-b722eb79be6c",
+    "link-uuid": "52130277-a153-43be-ab46-fdbd961ef6ed",
     "title": "jobTemplate",
     "content": "Type Job Multiplicity 0..1 Specifies the job that will be created when executing a CronJob.",
-    "timestamp": 1772303527541
+    "timestamp": 1772303885497
   },
   "references/eSubpackages/configuration/index.html": {
-    "link-uuid": "f90c5ea4-5d61-47e9-8a86-417bb799a9f9",
+    "link-uuid": "3f3f3e5e-4a93-47b5-9f85-027ffadf2f72",
     "title": "configuration",
     "content": "Configuration resources for managing application configuration and sensitive data. ConfigMaps store non-confidential data in key-value pairs. Secrets are similar but intended for confidential data.",
-    "timestamp": 1772303527074
+    "timestamp": 1772303885037
   },
   "references/eClassifiers/Taint/references/eStructuralFeatures/value/index.html": {
     "path": "Taint/Attributes/value",
-    "link-uuid": "e8e7573e-5a01-42b9-95bd-98ffd8fbc5cb",
+    "link-uuid": "9f67e639-a222-4622-acef-005c77b4cae0",
     "title": "value",
     "content": "Type EString Multiplicity 0..1 The taint value corresponding to the taint key.",
-    "timestamp": 1772303527042
+    "timestamp": 1772303885005
   },
   "references/eSubpackages/workloads/index.html": {
-    "link-uuid": "959ddec6-c53d-4430-b96c-65248fee4d2a",
+    "link-uuid": "88e47779-b004-4612-b9cf-b069e651a636",
     "title": "workloads",
     "content": "Workload resources manage Pods. Pods represent a set of running containers in your cluster. Controllers manage the lifecycle and scaling of pods.",
-    "timestamp": 1772303527459
+    "timestamp": 1772303885412
   },
   "references/eSubpackages/workloads/references/eClassifiers/VolumeMount/references/eStructuralFeatures/mountPath/index.html": {
     "path": "workloads/VolumeMount/Attributes/mountPath",
-    "link-uuid": "b5890034-73c1-4745-8dc2-cc58acdeb9d1",
+    "link-uuid": "c1e3f012-8408-4e71-b6ce-3b3ee78a1e79",
     "title": "mountPath",
     "content": "Type EString Multiplicity 1 Path within the container at which the volume should be mounted.",
-    "timestamp": 1772303527852
+    "timestamp": 1772303885808
   },
   "references/eSubpackages/workloads/references/eClassifiers/StatefulSet/references/eStructuralFeatures/replicas/index.html": {
     "path": "workloads/StatefulSet/Attributes/replicas",
-    "link-uuid": "36798d0e-ecdb-4934-b209-fca43140d963",
+    "link-uuid": "30ffab1e-590e-4a72-9842-f6563e9df775",
     "title": "replicas",
     "content": "Type EInt Multiplicity 0..1 Number of desired pods. Defaults to 1.",
-    "timestamp": 1772303527803
+    "timestamp": 1772303885762
   },
   "references/eSubpackages/configuration/references/eClassifiers/Secret/references/eStructuralFeatures/data/index.html": {
     "path": "configuration/Secret/References/data",
-    "link-uuid": "04732d4d-6050-4ac5-9bd5-7e95acac223e",
+    "link-uuid": "201ea340-3a16-47d4-87e1-b87b65e6f915",
     "title": "data",
     "content": "Type KeyValuePair Multiplicity 0..* Data contains the secret data. Each key must consist of alphanumeric characters, &lsquo;-&rsquo;, &lsquo;_&rsquo; or &lsquo;.&rsquo;. The values are base64 encoded.",
-    "timestamp": 1772303527133
+    "timestamp": 1772303885091
   },
   "references/eSubpackages/workloads/references/eClassifiers/Deployment/references/eStructuralFeatures/selector/index.html": {
     "path": "workloads/Deployment/References/selector",
-    "link-uuid": "61e4f961-e918-453d-b414-cf1bfc00508c",
+    "link-uuid": "f40233d6-5a9b-43b7-96a2-549e510c57b4",
     "title": "selector",
     "content": "Type LabelSelector Multiplicity 0..1 Label selector for pods. Existing ReplicaSets whose pods are selected by this will be the ones affected by this deployment.",
-    "timestamp": 1772303527598
+    "timestamp": 1772303885559
   },
   "references/eSubpackages/storage/references/eClassifiers/StorageClass/references/eStructuralFeatures/parameters/index.html": {
     "path": "storage/StorageClass/References/parameters",
-    "link-uuid": "e25778d2-65d1-45ce-8ad6-e2819f39f597",
+    "link-uuid": "36afd37e-9dcf-4ed2-8978-4929553afbe9",
     "title": "parameters",
     "content": "Type KeyValuePair Multiplicity 0..* Parameters holds the parameters for the provisioner that should create volumes of this storage class.",
-    "timestamp": 1772303527417
+    "timestamp": 1772303885371
   },
   "references/eSubpackages/workloads/references/eClassifiers/ReplicaSet/inheritance.html": {
     "path": "workloads/ReplicaSet/Inheritance",
-    "link-uuid": "c83fa7f7-8bfd-4a86-b6cb-cb6cd9b78ed3",
+    "link-uuid": "2051d989-7e42-431b-af4e-5b5debc23cc9",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527752
+    "timestamp": 1772303885710
   },
   "references/eSubpackages/workloads/references/eClassifiers/StatefulSet/references/eStructuralFeatures/volumeClaimTemplates/index.html": {
     "path": "workloads/StatefulSet/References/volumeClaimTemplates",
-    "link-uuid": "bad8fabf-b0d6-4dce-8100-d83ba8fe6403",
+    "link-uuid": "af8e5d2c-b9b9-4a79-9d2e-e4c4d7993979",
     "title": "volumeClaimTemplates",
     "content": "Type PersistentVolumeClaim Multiplicity 0..* VolumeClaimTemplates is a list of claims that pods are allowed to reference. The StatefulSet controller is responsible for mapping network identities to claims in a way that maintains the identity of a pod.",
-    "timestamp": 1772303527810
+    "timestamp": 1772303885769
   },
   "references/eClassifiers/Resource/references/eStructuralFeatures/apiVersion/index.html": {
     "path": "Resource/Attributes/apiVersion",
-    "link-uuid": "8d18503d-2930-4851-9a74-fb4a7061b649",
+    "link-uuid": "396a2716-61b9-4945-9489-f5e616395276",
     "title": "apiVersion",
     "content": "Type EString Multiplicity 0..1 APIVersion defines the versioned schema of this representation of an object (e.g. apps/v1, v1, batch/v1).",
-    "timestamp": 1772303527005
+    "timestamp": 1772303884969
   },
   "references/eSubpackages/networking/references/eClassifiers/ServicePort/references/eStructuralFeatures/nodePort/index.html": {
     "path": "networking/ServicePort/Attributes/nodePort",
-    "link-uuid": "0535a7d0-57dd-4f41-aea2-f08fa2de6554",
+    "link-uuid": "7e15825a-354a-41f0-8224-a5749961c5ba",
     "title": "nodePort",
     "content": "Type EInt Multiplicity 0..1 The port on each node on which this service is exposed when type is NodePort or LoadBalancer.",
-    "timestamp": 1772303527298
+    "timestamp": 1772303885252
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/index.html": {
     "path": "workloads/PodTemplateSpec",
-    "link-uuid": "51fdcd83-91e7-4603-a157-22c2591a1724",
+    "link-uuid": "beb74780-6f8b-4c1f-8e15-7c416a4728ea",
     "title": "PodTemplateSpec",
     "content": "Describes the data a pod should have when created from a template. Used in Deployments, ReplicaSets, Jobs, etc.",
-    "timestamp": 1772303527712
+    "timestamp": 1772303885670
   },
   "references/eSubpackages/workloads/references/eClassifiers/ContainerPort/references/eStructuralFeatures/name/index.html": {
     "path": "workloads/ContainerPort/Attributes/name",
-    "link-uuid": "864d4b5c-cbcc-4e28-bd7e-e7cc66568d51",
+    "link-uuid": "77ba2ad5-7acd-464f-bbe8-4387ac9b943e",
     "title": "name",
     "content": "Type EString Multiplicity 0..1 If specified, this must be an IANA_SVC_NAME and unique within the pod.",
-    "timestamp": 1772303527518
+    "timestamp": 1772303885472
   },
   "references/eSubpackages/configuration/references/eClassifiers/Secret/references/eStructuralFeatures/type/index.html": {
     "path": "configuration/Secret/Attributes/type",
-    "link-uuid": "601ca13e-6e2a-4540-9d43-29c8fdb5f5c8",
+    "link-uuid": "576e40aa-0d8a-4a74-accd-6a71ed293016",
     "title": "type",
     "content": "Type EString Multiplicity 0..1 Used to facilitate programmatic handling of secret data. Common types include Opaque, kubernetes.io/service-account-token, kubernetes.io/tls, etc.",
-    "timestamp": 1772303527135
+    "timestamp": 1772303885093
   },
   "references/eSubpackages/networking/references/eClassifiers/IngressRule/references/eStructuralFeatures/paths/index.html": {
     "path": "networking/IngressRule/References/paths",
-    "link-uuid": "6fc7ac96-f188-4be9-baf4-a0f4d40de855",
+    "link-uuid": "c027634a-a134-4285-b612-22b0b884e688",
     "title": "paths",
     "content": "Type HTTPIngressPath Multiplicity 0..* A collection of paths that map requests to backends.",
-    "timestamp": 1772303527241
+    "timestamp": 1772303885195
   },
   "references/eSubpackages/networking/references/eClassifiers/ServicePort/references/eStructuralFeatures/name/index.html": {
     "path": "networking/ServicePort/Attributes/name",
-    "link-uuid": "49aa8878-71b7-49a4-8523-905493a7de11",
+    "link-uuid": "0a476709-35cd-47c0-a66a-0c6b421bca98",
     "title": "name",
     "content": "Type EString Multiplicity 0..1 The name of this port within the service. This must be a DNS_LABEL.",
-    "timestamp": 1772303527295
+    "timestamp": 1772303885250
   },
   "references/eSubpackages/networking/references/eClassifiers/HTTPIngressPath/references/eStructuralFeatures/serviceName/index.html": {
     "path": "networking/HTTPIngressPath/Attributes/serviceName",
-    "link-uuid": "9874d872-574e-4785-be69-4d718896dfc5",
+    "link-uuid": "f0575649-8f84-4659-a726-869057d23d9d",
     "title": "serviceName",
     "content": "Type EString Multiplicity 1 Name of the referenced service.",
-    "timestamp": 1772303527193
+    "timestamp": 1772303885146
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolume/references/eStructuralFeatures/reclaimPolicy/index.html": {
     "path": "storage/PersistentVolume/Attributes/reclaimPolicy",
-    "link-uuid": "6b6df3ea-bb64-4dbd-ab33-c59de4da741d",
+    "link-uuid": "633d1244-0939-4cbc-9e24-e407edd4a3a8",
     "title": "reclaimPolicy",
     "content": "Type EString Multiplicity 0..1 What happens to a persistent volume when released from its claim. Valid values: Retain, Recycle, Delete.",
-    "timestamp": 1772303527358
+    "timestamp": 1772303885309
   },
   "references/eSubpackages/configuration/references/eClassifiers/Secret/index.html": {
     "path": "configuration/Secret",
-    "link-uuid": "12e817f4-56b0-4833-84c5-9401d1363b13",
+    "link-uuid": "ca361a78-a32e-4cd5-8a07-aa68a8bd3592",
     "title": "Secret",
     "content": "A Secret is an object that contains a small amount of sensitive data such as a password, a token, or a key. Using a Secret means that you don&rsquo;t need to include confidential data in your application code.",
-    "timestamp": 1772303527125
+    "timestamp": 1772303885084
   },
   "references/eSubpackages/networking/references/eClassifiers/Service/references/eStructuralFeatures/selector/index.html": {
     "path": "networking/Service/References/selector",
-    "link-uuid": "19c1e14e-0835-4617-b810-5121ebaec9fd",
+    "link-uuid": "ef7cdf4b-0908-4f80-a48e-f896b8980740",
     "title": "selector",
     "content": "Type KeyValuePair Multiplicity 0..* Route service traffic to pods with label keys and values matching this selector.",
-    "timestamp": 1772303527272
+    "timestamp": 1772303885226
   },
   "references/eClassifiers/Resource/inheritance.html": {
     "path": "Resource/Inheritance",
-    "link-uuid": "2de3531d-11e5-499f-b48c-85465ebe20c4",
+    "link-uuid": "ef27a501-88d1-46d4-b6ff-29c65f7dcd68",
     "title": "Inheritance",
     "content": "Subtypes ",
-    "timestamp": 1772303526999
+    "timestamp": 1772303884963
   },
   "references/eSubpackages/workloads/references/eClassifiers/Job/references/eStructuralFeatures/backoffLimit/index.html": {
     "path": "workloads/Job/Attributes/backoffLimit",
-    "link-uuid": "6fe9b0dc-01c9-4c55-a152-c4861d787c70",
+    "link-uuid": "bbb7a91a-c8a8-4401-82c3-b7ad1af5ed11",
     "title": "backoffLimit",
     "content": "Type EInt Multiplicity 0..1 Specifies the number of retries before marking this job failed. Defaults to 6.",
-    "timestamp": 1772303527646
+    "timestamp": 1772303885606
   },
   "references/eClassifiers/Cluster/index.html": {
-    "link-uuid": "69972c36-7197-45dd-a083-a9ea8a136c36",
+    "link-uuid": "d763c2a1-a65d-4e5f-b7d1-0310ad3fb612",
     "title": "Cluster",
     "content": "A Kubernetes cluster is a set of nodes that run containerized applications. The cluster is the top-level resource containing namespaces, nodes, and cluster-scoped resources. Diagram ",
-    "timestamp": 1772303526773
+    "timestamp": 1772303884747
   },
   "references/eSubpackages/workloads/references/eClassifiers/Deployment/references/eStructuralFeatures/replicas/index.html": {
     "path": "workloads/Deployment/Attributes/replicas",
-    "link-uuid": "f3ce854f-bbea-4ab1-b8fc-70175f5e0379",
+    "link-uuid": "8620b4b7-805a-4bb7-99e0-a42f206801a1",
     "title": "replicas",
     "content": "Type EInt Multiplicity 0..1 Number of desired pods. Defaults to 1.",
-    "timestamp": 1772303527596
+    "timestamp": 1772303885557
   },
   "references/eSubpackages/workloads/references/eClassifiers/Pod/references/eStructuralFeatures/restartPolicy/index.html": {
     "path": "workloads/Pod/Attributes/restartPolicy",
-    "link-uuid": "b49affc8-dcea-43ec-a388-19ec4d17d8ae",
+    "link-uuid": "226b94b1-89aa-4471-bd57-9b661b627a31",
     "title": "restartPolicy",
     "content": "Type EString Multiplicity 0..1 Restart policy for all containers within the pod. One of Always, OnFailure, Never.",
-    "timestamp": 1772303527688
+    "timestamp": 1772303885646
   },
   "references/eSubpackages/networking/references/eClassifiers/ServicePort/references/eStructuralFeatures/protocol/index.html": {
     "path": "networking/ServicePort/Attributes/protocol",
-    "link-uuid": "f0361bb0-164b-434a-bcb2-30fdd31570e8",
+    "link-uuid": "6bc3e192-1701-4537-a9ed-fc6a2304212f",
     "title": "protocol",
     "content": "Type EString Multiplicity 0..1 The IP protocol for this port. Supports TCP, UDP, and SCTP. Default is TCP.",
-    "timestamp": 1772303527302
+    "timestamp": 1772303885255
   },
   "references/eSubpackages/networking/references/eClassifiers/ServicePort/references/eStructuralFeatures/targetPort/index.html": {
     "path": "networking/ServicePort/Attributes/targetPort",
-    "link-uuid": "1cba39c4-7664-470b-a379-d617130aa61b",
+    "link-uuid": "f7acd984-6e82-4c5e-b90e-eeb7e0f85b5b",
     "title": "targetPort",
     "content": "Type EInt Multiplicity 0..1 Number of the port to access on the pods targeted by the service.",
-    "timestamp": 1772303527304
+    "timestamp": 1772303885257
   },
   "references/eSubpackages/workloads/references/eClassifiers/Deployment/references/eStructuralFeatures/strategyType/index.html": {
     "path": "workloads/Deployment/Attributes/strategyType",
-    "link-uuid": "062ee56b-5130-4025-b5ac-288a892dcb1c",
+    "link-uuid": "ece12e21-ccf1-4831-944d-1164c29f385f",
     "title": "strategyType",
     "content": "Type EString Multiplicity 0..1 Type of deployment strategy. Can be Recreate or RollingUpdate. Default is RollingUpdate.",
-    "timestamp": 1772303527600
+    "timestamp": 1772303885561
   },
   "references/eClassifiers/Resource/references/eStructuralFeatures/name/index.html": {
     "path": "Resource/Attributes/name",
-    "link-uuid": "5bbb6735-4c81-49e1-899b-2f9e41611005",
+    "link-uuid": "15fab0f5-55dc-4fa2-9177-5a56afc6ce3d",
     "title": "name",
     "content": "Type EString Multiplicity 0..1 Name must be unique within a namespace. Is required when creating resources. Name is primarily intended for creation idempotence and configuration definition.",
-    "timestamp": 1772303527012
+    "timestamp": 1772303884976
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolumeClaim/references/eStructuralFeatures/resources/index.html": {
     "path": "storage/PersistentVolumeClaim/References/resources",
-    "link-uuid": "f87136e6-089a-4178-9547-0e98113caef9",
+    "link-uuid": "8a398120-5c00-41d5-addf-3e0c603d7053",
     "title": "resources",
     "content": "Type ResourceRequirements Multiplicity 0..1 Resources represents the minimum resources the volume should have (e.g. storage: 8Gi).",
-    "timestamp": 1772303527389
+    "timestamp": 1772303885341
   },
   "references/eClassifiers/Resource/references/eStructuralFeatures/kind/index.html": {
     "path": "Resource/Attributes/kind",
-    "link-uuid": "415d335b-9eff-44e6-9027-3657ed26d3d4",
+    "link-uuid": "8cd05c1c-8e4d-4459-a391-f6b0b0740139",
     "title": "kind",
     "content": "Type EString Multiplicity 0..1 Kind is a string value representing the REST resource this object represents (e.g. Deployment, Service, Pod).",
-    "timestamp": 1772303527007
+    "timestamp": 1772303884971
   },
   "references/eSubpackages/workloads/references/eClassifiers/DaemonSet/inheritance.html": {
     "path": "workloads/DaemonSet/Inheritance",
-    "link-uuid": "33a51136-ca63-4c67-a846-e0538a2c2051",
+    "link-uuid": "d86cc02c-a6d2-4180-ad8d-84455ea46b82",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527566
+    "timestamp": 1772303885521
   },
   "references/eClassifiers/Cluster/references/eStructuralFeatures/nodes/index.html": {
     "path": "Cluster/References/nodes",
-    "link-uuid": "217f21db-ea53-48f1-b9fc-5955c6ae2727",
+    "link-uuid": "7dfc8023-1d4a-4e0e-be16-df63e6ae1474",
     "title": "nodes",
     "content": "Type Node Multiplicity 0..* Worker nodes in this cluster.",
-    "timestamp": 1772303526786
+    "timestamp": 1772303884760
   },
   "references/eSubpackages/workloads/references/eClassifiers/StatefulSet/inheritance.html": {
     "path": "workloads/StatefulSet/Inheritance",
-    "link-uuid": "ef0cdd4d-c7ad-49bc-ac69-db347e976eb5",
+    "link-uuid": "0966fce4-372e-4779-b483-9cb9e754171d",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527800
+    "timestamp": 1772303885758
   },
   "references/eSubpackages/workloads/references/eClassifiers/ContainerPort/index.html": {
     "path": "workloads/ContainerPort",
-    "link-uuid": "c86261f3-2c3f-45b9-9866-c7a85194a1ad",
+    "link-uuid": "f584fc1a-2416-4fc8-98b7-7dacebdf10d2",
     "title": "ContainerPort",
     "content": "Represents a network port in a single container.",
-    "timestamp": 1772303527510
+    "timestamp": 1772303885465
   },
   "references/eSubpackages/workloads/references/eClassifiers/Job/index.html": {
     "path": "workloads/Job",
-    "link-uuid": "fe132430-f3df-491d-91ff-bae4942032f8",
+    "link-uuid": "4efb8697-6221-4571-99e8-7e0f85036831",
     "title": "Job",
     "content": "A Job creates one or more Pods and will continue to retry execution of the Pods until a specified number of them successfully terminate.",
-    "timestamp": 1772303527641
+    "timestamp": 1772303885600
   },
   "references/eSubpackages/workloads/references/eClassifiers/Pod/references/eStructuralFeatures/containers/index.html": {
     "path": "workloads/Pod/References/containers",
-    "link-uuid": "d0290a8c-cc7d-455e-845d-b89a67f02285",
+    "link-uuid": "a7880da1-50a0-4f38-9729-3d7e7fb924c3",
     "title": "containers",
     "content": "Type Container Multiplicity 0..* List of containers belonging to the pod.",
-    "timestamp": 1772303527678
+    "timestamp": 1772303885638
   },
   "references/eClassifiers/Cluster/references/eStructuralFeatures/namespaces/index.html": {
     "path": "Cluster/References/namespaces",
-    "link-uuid": "193cfd19-b7f2-4b6a-aa69-a9c46aa3281c",
+    "link-uuid": "6412a915-c720-4ba8-a7d0-3c0dacdd5660",
     "title": "namespaces",
     "content": "Type Namespace Multiplicity 0..* Namespaces in this cluster.",
-    "timestamp": 1772303526783
+    "timestamp": 1772303884757
   },
   "references/eSubpackages/networking/references/eClassifiers/HTTPIngressPath/references/eStructuralFeatures/path/index.html": {
     "path": "networking/HTTPIngressPath/Attributes/path",
-    "link-uuid": "91c22cfb-3c18-461c-a3de-dd490e55357c",
+    "link-uuid": "82c2d584-c3b8-4b17-89c1-08d707a59edf",
     "title": "path",
     "content": "Type EString Multiplicity 0..1 Path is matched against the path of an incoming request (e.g. /testpath).",
-    "timestamp": 1772303527189
+    "timestamp": 1772303885142
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/references/eStructuralFeatures/serviceAccountName/index.html": {
     "path": "workloads/PodTemplateSpec/Attributes/serviceAccountName",
-    "link-uuid": "ea5d95e0-1812-4d3d-ba78-fc27973927c6",
+    "link-uuid": "15c7daed-683c-4a0a-ae89-3b59aa2b7744",
     "title": "serviceAccountName",
     "content": "Type EString Multiplicity 0..1 Name of the ServiceAccount to use to run this pod.",
-    "timestamp": 1772303527729
+    "timestamp": 1772303885687
   },
   "references/eSubpackages/workloads/references/eClassifiers/Pod/inheritance.html": {
     "path": "workloads/Pod/Inheritance",
-    "link-uuid": "8a03f77e-b255-430f-b8d4-5583554ab477",
+    "link-uuid": "7db9b406-b463-411f-8ee3-9bcf1be08ab4",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527674
+    "timestamp": 1772303885634
   },
   "references/eSubpackages/workloads/references/eClassifiers/Pod/references/eStructuralFeatures/volumes/index.html": {
     "path": "workloads/Pod/References/volumes",
-    "link-uuid": "abebfec6-7cb0-47dc-810d-e22380556cbc",
+    "link-uuid": "b95e7d6f-f8c1-49c1-b281-51253f764b1b",
     "title": "volumes",
     "content": "Type Volume Multiplicity 0..* List of volumes that can be mounted by containers belonging to the pod.",
-    "timestamp": 1772303527692
+    "timestamp": 1772303885650
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/references/eStructuralFeatures/ports/index.html": {
     "path": "workloads/Container/References/ports",
-    "link-uuid": "5b1dc10a-4e30-4016-9914-8ab6919ad942",
+    "link-uuid": "6e6b0949-967f-4853-93e5-4e44c2eb3ccb",
     "title": "ports",
     "content": "Type ContainerPort Multiplicity 0..* List of ports to expose from the container.",
-    "timestamp": 1772303527491
+    "timestamp": 1772303885445
   },
   "references/eSubpackages/workloads/references/eClassifiers/CronJob/index.html": {
     "path": "workloads/CronJob",
-    "link-uuid": "d95e542e-fdaa-4e62-9be6-f96dc72c83ed",
+    "link-uuid": "009edeec-0328-48d9-9af8-ed938fe98d77",
     "title": "CronJob",
     "content": "A CronJob creates Jobs on a repeating schedule. CronJob is meant for performing regular scheduled actions such as backups, report generation, and so on.",
-    "timestamp": 1772303527536
+    "timestamp": 1772303885491
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/references/eStructuralFeatures/restartPolicy/index.html": {
     "path": "workloads/PodTemplateSpec/Attributes/restartPolicy",
-    "link-uuid": "52136621-8483-4828-9c81-9bc0fdb439b9",
+    "link-uuid": "3d77f2b0-d3e3-4403-9515-ee1202612bfe",
     "title": "restartPolicy",
     "content": "Type EString Multiplicity 0..1 Restart policy for all containers within the pod. One of Always, OnFailure, Never. Default to Always.",
-    "timestamp": 1772303527728
+    "timestamp": 1772303885685
   },
   "references/eSubpackages/workloads/references/eClassifiers/VolumeMount/references/eStructuralFeatures/name/index.html": {
     "path": "workloads/VolumeMount/Attributes/name",
-    "link-uuid": "2f723f39-4afe-4569-89df-ce4c0150171b",
+    "link-uuid": "74c63d78-7a1c-4ba3-9571-3f3d71d63aa7",
     "title": "name",
     "content": "Type EString Multiplicity 1 This must match the Name of a Volume.",
-    "timestamp": 1772303527854
+    "timestamp": 1772303885810
   },
   "references/eSubpackages/networking/references/eClassifiers/HTTPIngressPath/references/eStructuralFeatures/pathType/index.html": {
     "path": "networking/HTTPIngressPath/Attributes/pathType",
-    "link-uuid": "e6f316a4-8418-4b76-830d-49003fba9baf",
+    "link-uuid": "0486dab8-1cc2-4837-84be-b74d0e0640f3",
     "title": "pathType",
     "content": "Type EString Multiplicity 1 PathType determines the interpretation of the Path matching. Valid values: Exact, Prefix, ImplementationSpecific.",
-    "timestamp": 1772303527190
+    "timestamp": 1772303885144
   },
   "references/eSubpackages/workloads/references/eClassifiers/ReplicaSet/references/eStructuralFeatures/selector/index.html": {
     "path": "workloads/ReplicaSet/References/selector",
-    "link-uuid": "634b121e-3831-44d5-984d-862bdcd9f134",
+    "link-uuid": "92dcb2db-7445-448f-a12f-4a51816e46b1",
     "title": "selector",
     "content": "Type LabelSelector Multiplicity 0..1 Selector is a label query over pods that should match the replica count.",
-    "timestamp": 1772303527757
+    "timestamp": 1772303885715
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolume/references/eStructuralFeatures/capacity/index.html": {
     "path": "storage/PersistentVolume/References/capacity",
-    "link-uuid": "2029c740-f36d-4468-8083-856f30341019",
+    "link-uuid": "bb824380-3851-42fa-8661-59f44ee6b439",
     "title": "capacity",
     "content": "Type KeyValuePair Multiplicity 0..* A description of the persistent volume&rsquo;s resources and capacity (e.g. storage: 5Gi).",
-    "timestamp": 1772303527356
+    "timestamp": 1772303885308
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/references/eStructuralFeatures/labels/index.html": {
     "path": "workloads/PodTemplateSpec/References/labels",
-    "link-uuid": "00eab35a-3690-4b31-a6e6-1dc0e67c028a",
+    "link-uuid": "c93db942-ecf0-43cd-8070-f912660bc86d",
     "title": "labels",
     "content": "Type KeyValuePair Multiplicity 0..* Labels for pods created from this template.",
-    "timestamp": 1772303527722
+    "timestamp": 1772303885679
   },
   "references/eClassifiers/Node/references/eStructuralFeatures/taints/index.html": {
     "path": "Node/References/taints",
-    "link-uuid": "04d89ef1-f3f7-4f51-817f-d61ae0c06273",
+    "link-uuid": "6a95e089-477f-48ff-9861-1584664bebe4",
     "title": "taints",
     "content": "Type Taint Multiplicity 0..* Taints applied to the node. Taints allow a node to repel a set of pods.",
-    "timestamp": 1772303526957
+    "timestamp": 1772303884922
   },
   "references/eSubpackages/networking/references/eClassifiers/Service/references/eStructuralFeatures/ports/index.html": {
     "path": "networking/Service/References/ports",
-    "link-uuid": "052a0feb-a417-4c6c-8d69-643551c46832",
+    "link-uuid": "440fa9f3-0d67-4ccb-a5e7-cebdfd1eb220",
     "title": "ports",
     "content": "Type ServicePort Multiplicity 0..* The list of ports that are exposed by this service.",
-    "timestamp": 1772303527270
+    "timestamp": 1772303885224
   },
   "references/eSubpackages/networking/references/eClassifiers/Ingress/inheritance.html": {
     "path": "networking/Ingress/Inheritance",
-    "link-uuid": "eb09e275-e3cb-4296-be5e-aba4ba36bc0a",
+    "link-uuid": "ccd3c2d5-0e72-4d0e-a244-11413f1dac67",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527212
+    "timestamp": 1772303885167
   },
   "references/eSubpackages/workloads/references/eClassifiers/Volume/index.html": {
     "path": "workloads/Volume",
-    "link-uuid": "5231270b-3f96-48e7-ba6f-0be66d970c72",
+    "link-uuid": "8a93ec47-a57e-435f-8dd3-f9459da3585a",
     "title": "Volume",
     "content": "Represents a named volume in a pod that may be accessed by any container in the pod.",
-    "timestamp": 1772303527827
+    "timestamp": 1772303885785
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/jobs/index.html": {
     "path": "Namespace/References/jobs",
-    "link-uuid": "a1702b7e-33ac-4c99-b8e7-92bc9b6987f0",
+    "link-uuid": "f9f083d0-913f-40cf-90ee-e09eb5c06ae5",
     "title": "jobs",
     "content": "Type Job Multiplicity 0..* Jobs in this namespace.",
-    "timestamp": 1772303526907
+    "timestamp": 1772303884877
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolumeClaim/references/eStructuralFeatures/storageClassName/index.html": {
     "path": "storage/PersistentVolumeClaim/Attributes/storageClassName",
-    "link-uuid": "c5b6de67-8291-4414-9f4d-ea860adc29c9",
+    "link-uuid": "2336d05e-fe9a-42d4-97b3-d5d979e6a843",
     "title": "storageClassName",
     "content": "Type EString Multiplicity 0..1 Name of the StorageClass required by the claim.",
-    "timestamp": 1772303527391
+    "timestamp": 1772303885343
   },
   "references/eSubpackages/workloads/references/eClassifiers/CronJob/inheritance.html": {
     "path": "workloads/CronJob/Inheritance",
-    "link-uuid": "e2fa8c1a-077f-4b93-8081-6a9db4475164",
+    "link-uuid": "0f3f0b1c-4d20-4478-94af-3aa2601f74dd",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527537
+    "timestamp": 1772303885493
   },
   "references/eSubpackages/workloads/references/eClassifiers/Job/references/eStructuralFeatures/template/index.html": {
     "path": "workloads/Job/References/template",
-    "link-uuid": "a5820a00-31f9-4a53-85cd-4d51b7603a08",
+    "link-uuid": "93931e0a-5c41-454e-ac1a-db8df100ab65",
     "title": "template",
     "content": "Type PodTemplateSpec Multiplicity 0..1 Describes the pod that will be created when executing a job.",
-    "timestamp": 1772303527654
+    "timestamp": 1772303885613
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/references/eStructuralFeatures/name/index.html": {
     "path": "workloads/Container/Attributes/name",
-    "link-uuid": "90ffc09f-7494-4a92-bb9b-1f834e3f99ed",
+    "link-uuid": "5590dfa8-b278-4be8-aac2-ce54b677987c",
     "title": "name",
     "content": "Type EString Multiplicity 1 Name of the container. Each container in a pod must have a unique name.",
-    "timestamp": 1772303527489
+    "timestamp": 1772303885443
   },
   "references/eSubpackages/workloads/references/eClassifiers/Pod/index.html": {
     "path": "workloads/Pod",
-    "link-uuid": "829dd888-fbe6-411d-a319-fc46a6871d72",
+    "link-uuid": "2c616e99-3daf-4a12-84c2-c90f41a87114",
     "title": "Pod",
     "content": "A Pod is the smallest deployable units of computing that you can create and manage in Kubernetes. A Pod is a group of one or more containers, with shared storage and network resources, and a specification for how to run the containers.",
-    "timestamp": 1772303527672
+    "timestamp": 1772303885632
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/daemonSets/index.html": {
     "path": "Namespace/References/daemonSets",
-    "link-uuid": "75e5db06-8a64-4c6b-b95f-9c3dfe2df8f0",
+    "link-uuid": "790f6932-43f5-4206-9065-57c2ab6b0f1a",
     "title": "daemonSets",
     "content": "Type DaemonSet Multiplicity 0..* DaemonSets in this namespace.",
-    "timestamp": 1772303526900
+    "timestamp": 1772303884869
   },
   "references/eSubpackages/workloads/references/eClassifiers/StatefulSet/references/eStructuralFeatures/serviceName/index.html": {
     "path": "workloads/StatefulSet/Attributes/serviceName",
-    "link-uuid": "35756a26-8e7c-45bc-b154-85acdc8560f8",
+    "link-uuid": "8cba24a7-7da7-498f-8829-2d6b7e572ef9",
     "title": "serviceName",
     "content": "Type EString Multiplicity 0..1 ServiceName is the name of the service that governs this StatefulSet. This service must exist before the StatefulSet, and is responsible for the network identity of the set.",
-    "timestamp": 1772303527807
+    "timestamp": 1772303885766
   },
   "references/eClassifiers/Resource/references/eStructuralFeatures/annotations/index.html": {
     "path": "Resource/References/annotations",
-    "link-uuid": "41ced3ae-02b2-4dfc-91e4-e0414616afbd",
+    "link-uuid": "60096b16-f68a-48d0-a543-3e800e43ab54",
     "title": "annotations",
     "content": "Type KeyValuePair Multiplicity 0..* Annotations is an unstructured key-value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata.",
-    "timestamp": 1772303527002
+    "timestamp": 1772303884966
   },
   "references/eSubpackages/workloads/references/eClassifiers/ContainerPort/references/eStructuralFeatures/protocol/index.html": {
     "path": "workloads/ContainerPort/Attributes/protocol",
-    "link-uuid": "c9744977-2317-4b8b-92bc-1d1cb5105e68",
+    "link-uuid": "5b298e7c-67c2-47ea-b369-c0c432190e34",
     "title": "protocol",
     "content": "Type EString Multiplicity 0..1 Protocol for port. Must be UDP, TCP, or SCTP. Defaults to TCP.",
-    "timestamp": 1772303527520
+    "timestamp": 1772303885474
   },
   "references/eSubpackages/workloads/references/eClassifiers/CronJob/references/eStructuralFeatures/schedule/index.html": {
     "path": "workloads/CronJob/Attributes/schedule",
-    "link-uuid": "5a21c619-eccd-492c-8456-303177ae3fd8",
+    "link-uuid": "05fac9d8-33b6-4a96-a8d9-a1f079f34d81",
     "title": "schedule",
     "content": "Type EString Multiplicity 1 The schedule in Cron format (e.g. &lsquo;*/5 * * * *&rsquo; for every 5 minutes).",
-    "timestamp": 1772303527543
+    "timestamp": 1772303885499
   },
   "references/eSubpackages/workloads/references/eClassifiers/DaemonSet/references/eStructuralFeatures/template/index.html": {
     "path": "workloads/DaemonSet/References/template",
-    "link-uuid": "ae29f09a-a450-4dbb-8e9f-1b7c5e53494a",
+    "link-uuid": "71c520a2-a9b6-425d-a829-524f387c2379",
     "title": "template",
     "content": "Type PodTemplateSpec Multiplicity 0..1 An object that describes the pod that will be created on each node.",
-    "timestamp": 1772303527572
+    "timestamp": 1772303885527
   },
   "references/eSubpackages/configuration/references/eClassifiers/ConfigMap/references/eStructuralFeatures/data/index.html": {
     "path": "configuration/ConfigMap/References/data",
-    "link-uuid": "142158b5-136a-4651-8dcb-fd50907129db",
+    "link-uuid": "8c2aabc4-02c1-46bf-bf34-390640e9aecb",
     "title": "data",
     "content": "Type KeyValuePair Multiplicity 0..* Data contains the configuration data. Each key must consist of alphanumeric characters, &lsquo;-&rsquo;, &lsquo;_&rsquo; or &lsquo;.&rsquo;.",
-    "timestamp": 1772303527101
+    "timestamp": 1772303885063
   },
   "references/eClassifiers/Namespace/index.html": {
-    "link-uuid": "05100e94-8b76-4748-b734-f24b8588b22d",
+    "link-uuid": "c96b8e7b-e4d7-4535-ac5f-8f68936bfbc0",
     "title": "Namespace",
     "content": "Namespaces provide a mechanism for isolating groups of resources within a single cluster. Names of resources need to be unique within a namespace, but not across namespaces. Diagram ",
-    "timestamp": 1772303526886
+    "timestamp": 1772303884857
   },
   "references/eSubpackages/networking/references/eClassifiers/Ingress/index.html": {
     "path": "networking/Ingress",
-    "link-uuid": "7702dc40-d6b9-4b6c-80f8-b14634f2c728",
+    "link-uuid": "3a4993df-42d6-4016-8c3a-535c7d2c2e6d",
     "title": "Ingress",
     "content": "Ingress exposes HTTP and HTTPS routes from outside the cluster to services within the cluster. Traffic routing is controlled by rules defined on the Ingress resource.",
-    "timestamp": 1772303527210
+    "timestamp": 1772303885165
   },
   "references/eSubpackages/workloads/references/eClassifiers/ResourceRequirements/references/eStructuralFeatures/requests/index.html": {
     "path": "workloads/ResourceRequirements/References/requests",
-    "link-uuid": "e25186e3-75ab-4e85-938b-a4c61d685c6e",
+    "link-uuid": "78fb11d6-d175-4c77-967e-a66d31d5ac66",
     "title": "requests",
     "content": "Type KeyValuePair Multiplicity 0..* Minimum amount of compute resources required (e.g. cpu: 250m, memory: 64Mi).",
-    "timestamp": 1772303527778
+    "timestamp": 1772303885737
   },
   "references/eSubpackages/networking/references/eClassifiers/Service/index.html": {
     "path": "networking/Service",
-    "link-uuid": "f5fa9406-1280-4043-83c6-b2d307457480",
+    "link-uuid": "26af9c13-2273-4c8f-ab3d-d8be79abca99",
     "title": "Service",
     "content": "A Service is an abstract way to expose an application running on a set of Pods as a network service. With Kubernetes you don&rsquo;t need to modify your application to use an unfamiliar service discovery mechanism.",
-    "timestamp": 1772303527259
+    "timestamp": 1772303885214
   },
   "references/eSubpackages/workloads/references/eClassifiers/VolumeMount/index.html": {
     "path": "workloads/VolumeMount",
-    "link-uuid": "d6ce87f1-9a54-4c31-a752-7c374a4a976c",
+    "link-uuid": "427c4e6b-a779-4de4-b277-b3375d453b11",
     "title": "VolumeMount",
     "content": "Describes a volume mount within a container.",
-    "timestamp": 1772303527848
+    "timestamp": 1772303885804
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/secrets/index.html": {
     "path": "Namespace/References/secrets",
-    "link-uuid": "0b15b97d-a11d-4289-ba8d-add5b57c4ff1",
+    "link-uuid": "75fe56e1-e5cd-4bb6-a7a1-6d16639fcb81",
     "title": "secrets",
     "content": "Type Secret Multiplicity 0..* Secrets in this namespace.",
-    "timestamp": 1772303526917
+    "timestamp": 1772303884887
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolume/references/eStructuralFeatures/accessModes/index.html": {
     "path": "storage/PersistentVolume/Attributes/accessModes",
-    "link-uuid": "00b2aeb0-5fe2-4312-b042-1a9b0139f663",
+    "link-uuid": "4ace1a57-ff96-4df0-9268-1891805a6b58",
     "title": "accessModes",
     "content": "Type EString Multiplicity 0..* Access modes the volume can be mounted with. Valid values: ReadWriteOnce, ReadOnlyMany, ReadWriteMany, ReadWriteOncePod.",
-    "timestamp": 1772303527354
+    "timestamp": 1772303885306
   },
   "references/eSubpackages/workloads/references/eClassifiers/DaemonSet/references/eStructuralFeatures/selector/index.html": {
     "path": "workloads/DaemonSet/References/selector",
-    "link-uuid": "5afb28fa-5833-4184-922d-f127c5716f71",
+    "link-uuid": "b93d4214-0853-49d7-a4db-2a8412081994",
     "title": "selector",
     "content": "Type LabelSelector Multiplicity 0..1 A label query over pods that are managed by the daemon set.",
-    "timestamp": 1772303527570
+    "timestamp": 1772303885525
   },
   "references/eSubpackages/workloads/references/eClassifiers/ReplicaSet/index.html": {
     "path": "workloads/ReplicaSet",
-    "link-uuid": "1563d1a9-c648-43bf-b1f3-a8eb3467c6a2",
+    "link-uuid": "bebfed8c-6dcf-4c94-97d6-2496eb28f742",
     "title": "ReplicaSet",
     "content": "A ReplicaSet&rsquo;s purpose is to maintain a stable set of replica Pods running at any given time. It is often used to guarantee the availability of a specified number of identical Pods.",
-    "timestamp": 1772303527750
+    "timestamp": 1772303885707
   },
   "references/eSubpackages/networking/index.html": {
-    "link-uuid": "063b4bcd-3bbe-45ad-8fae-3ffb6d07d2b2",
+    "link-uuid": "996f9300-8a8c-4710-aefe-0e61568989c7",
     "title": "networking",
     "content": "Networking resources for exposing applications. Services provide stable network endpoints for pods, and Ingress manages external HTTP/HTTPS access.",
-    "timestamp": 1772303527169
+    "timestamp": 1772303885124
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolume/inheritance.html": {
     "path": "storage/PersistentVolume/Inheritance",
-    "link-uuid": "5a21d940-3bac-4abe-aeba-4c14a6d19621",
+    "link-uuid": "a0d41eec-e0d1-4bc1-b967-92ed1ff734ac",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527349
+    "timestamp": 1772303885302
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/replicaSets/index.html": {
     "path": "Namespace/References/replicaSets",
-    "link-uuid": "c5d61bab-f273-4f77-a1ac-786191bcfb48",
+    "link-uuid": "1beef180-fa62-43d4-b6b2-0e2f1e27f691",
     "title": "replicaSets",
     "content": "Type ReplicaSet Multiplicity 0..* ReplicaSets in this namespace.",
-    "timestamp": 1772303526915
+    "timestamp": 1772303884884
   },
   "references/eSubpackages/workloads/references/eClassifiers/Job/references/eStructuralFeatures/selector/index.html": {
     "path": "workloads/Job/References/selector",
-    "link-uuid": "2ee85c9e-ebe1-4fbb-bbcd-49f43ceb9344",
+    "link-uuid": "25615e71-5c4c-403c-ba8c-24d73a198632",
     "title": "selector",
     "content": "Type LabelSelector Multiplicity 0..1 A label query over pods that should match the pod count.",
-    "timestamp": 1772303527652
+    "timestamp": 1772303885612
   },
   "references/eSubpackages/workloads/references/eClassifiers/ReplicaSet/references/eStructuralFeatures/template/index.html": {
     "path": "workloads/ReplicaSet/References/template",
-    "link-uuid": "d5396e1b-2e4a-4df1-9f62-bb3f9a250d8d",
+    "link-uuid": "9b191dfa-a882-4854-9ba5-ab97db667f05",
     "title": "template",
     "content": "Type PodTemplateSpec Multiplicity 0..1 Template is the object that describes the pod that will be created.",
-    "timestamp": 1772303527759
+    "timestamp": 1772303885717
   },
   "references/eClassifiers/Taint/index.html": {
-    "link-uuid": "cbae59dd-83bd-4559-a629-f9cc6f1c553b",
+    "link-uuid": "5c4de3d1-c16e-4176-8f86-1363b9dbbf43",
     "title": "Taint",
     "content": "A taint allows a node to repel a set of pods. Taints and tolerations work together to ensure that pods are not scheduled onto inappropriate nodes. Diagram ",
-    "timestamp": 1772303527032
+    "timestamp": 1772303884996
   },
   "references/eClassifiers/Taint/references/eStructuralFeatures/key/index.html": {
     "path": "Taint/Attributes/key",
-    "link-uuid": "d932f363-618f-4faa-80bb-3738116730fe",
+    "link-uuid": "50a17ed0-94de-4c3d-95a9-a8ffbc66ad5e",
     "title": "key",
     "content": "Type EString Multiplicity 1 The taint key to be applied to a node.",
-    "timestamp": 1772303527040
+    "timestamp": 1772303885003
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/configMaps/index.html": {
     "path": "Namespace/References/configMaps",
-    "link-uuid": "48e4e37b-764d-4a04-8ba7-237bde68cebb",
+    "link-uuid": "7133d73b-05f5-48b9-8adc-a3096890cea1",
     "title": "configMaps",
     "content": "Type ConfigMap Multiplicity 0..* ConfigMaps in this namespace.",
-    "timestamp": 1772303526894
+    "timestamp": 1772303884865
   },
   "references/eClassifiers/Node/references/eStructuralFeatures/podCIDR/index.html": {
     "path": "Node/Attributes/podCIDR",
-    "link-uuid": "b90dce7d-8c04-40a3-92dc-c8eaa0226e0a",
+    "link-uuid": "f1722337-c971-4439-a029-0ee181d3eb25",
     "title": "podCIDR",
     "content": "Type EString Multiplicity 0..1 PodCIDR represents the pod IP range assigned to the node.",
-    "timestamp": 1772303526955
+    "timestamp": 1772303884920
   },
   "references/eClassifiers/Cluster/inheritance.html": {
     "path": "Cluster/Inheritance",
-    "link-uuid": "895accb6-0713-4f85-afa5-36f60c2ebd43",
+    "link-uuid": "6bb47f4e-bf52-4225-9258-0351f8e9f6b1",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303526776
+    "timestamp": 1772303884750
   },
   "references/eClassifiers/KeyValuePair/references/eStructuralFeatures/key/index.html": {
     "path": "KeyValuePair/Attributes/key",
-    "link-uuid": "a1aa0cbc-d848-478b-8b56-851d87257293",
+    "link-uuid": "cff1b3b7-8e1b-4a06-a23c-f6fc86a900d9",
     "title": "key",
     "content": "Type EString Multiplicity 1 The key of the pair.",
-    "timestamp": 1772303526826
+    "timestamp": 1772303884800
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/references/eStructuralFeatures/nodeName/index.html": {
     "path": "workloads/PodTemplateSpec/Attributes/nodeName",
-    "link-uuid": "444d446f-34f6-4569-9f38-c4b9c04edd88",
+    "link-uuid": "07a41a59-012c-445c-af41-f91cd7ba8072",
     "title": "nodeName",
     "content": "Type EString Multiplicity 0..1 NodeName is a request to schedule this pod onto a specific node.",
-    "timestamp": 1772303527724
+    "timestamp": 1772303885681
   },
   "references/eClassifiers/LabelSelector/references/eStructuralFeatures/matchLabels/index.html": {
     "path": "LabelSelector/References/matchLabels",
-    "link-uuid": "0cc29932-240c-44be-89ed-8ec388e0e7ba",
+    "link-uuid": "208b97df-5927-454e-8c76-9eee9ba23247",
     "title": "matchLabels",
     "content": "Type KeyValuePair Multiplicity 0..* A map of key-value pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions whose key field is the key, the operator is In, and the values array contains only the value.",
-    "timestamp": 1772303526853
+    "timestamp": 1772303884825
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/persistentVolumeClaims/index.html": {
     "path": "Namespace/References/persistentVolumeClaims",
-    "link-uuid": "082856be-bd22-4b8d-9d14-5bb717d8c8fe",
+    "link-uuid": "f5714cd7-a514-426d-a6e3-d6020517b9ac",
     "title": "persistentVolumeClaims",
     "content": "Type PersistentVolumeClaim Multiplicity 0..* PersistentVolumeClaims in this namespace.",
-    "timestamp": 1772303526910
+    "timestamp": 1772303884879
   },
   "references/eSubpackages/workloads/references/eClassifiers/Pod/references/eStructuralFeatures/nodeName/index.html": {
     "path": "workloads/Pod/Attributes/nodeName",
-    "link-uuid": "074ade76-2776-439f-9c2c-35c667e86440",
+    "link-uuid": "1305c7e4-87f3-4905-a6d2-9e5c5b211ca4",
     "title": "nodeName",
     "content": "Type EString Multiplicity 0..1 NodeName is a request to schedule this pod onto a specific node.",
-    "timestamp": 1772303527684
+    "timestamp": 1772303885643
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/statefulSets/index.html": {
     "path": "Namespace/References/statefulSets",
-    "link-uuid": "e17994a4-50da-45e6-b3fe-f67224d1eae9",
+    "link-uuid": "365c5a1f-ad88-4b78-bf15-5af429f55130",
     "title": "statefulSets",
     "content": "Type StatefulSet Multiplicity 0..* StatefulSets in this namespace.",
-    "timestamp": 1772303526922
+    "timestamp": 1772303884893
   },
   "references/eClassifiers/Cluster/references/eStructuralFeatures/storageClasses/index.html": {
     "path": "Cluster/References/storageClasses",
-    "link-uuid": "5fcacebb-c0b1-4acc-9a6f-509382bb77c6",
+    "link-uuid": "fb3ae90e-6f0b-4454-9188-87e550a42bf9",
     "title": "storageClasses",
     "content": "Type StorageClass Multiplicity 0..* Storage classes available in this cluster.",
-    "timestamp": 1772303526791
+    "timestamp": 1772303884765
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/index.html": {
     "path": "workloads/Container",
-    "link-uuid": "b010faf6-b735-4c22-85cc-5c5fd6f03f7b",
+    "link-uuid": "440f6e26-e6d9-4249-8ffd-9edfd5c46018",
     "title": "Container",
     "content": "A single application container that you want to run within a pod. Each container in a Pod has its own image, ports, environment, and resource requirements.",
-    "timestamp": 1772303527476
+    "timestamp": 1772303885429
   },
   "index.html": {
-    "link-uuid": "c3af5d6f-5ba4-4198-864a-5bd716bddf3d",
-    "title": "Risk Model",
+    "link-uuid": "c2de75ce-8782-41e3-9017-08faa76757f4",
+    "title": "Kubernetes Model",
     "content": "Ecore model for Kubernetes concepts. Part of the Nasdanika family of models. Intended Use Creating models of Kubernetes solutions (deployments, services, etc.) and then generating Kubernetes manifests from them. Loading information about Kubernetes clusters into a model for subsequent reporting, analysis, and generation of recommendations. Model Structure The model is organized into the following packages: kubernetes (root) &mdash; Core concepts: Cluster, Namespace, Node, Resource (abstract base), KeyValuePair, LabelSelector, Taint workloads &mdash; Workload resources: Pod, Deployment, ReplicaSet, StatefulSet, DaemonSet, Job, CronJob, Container, PodTemplateSpec, Volume, ContainerPort, EnvVar, VolumeMount, ResourceRequirements networking &mdash; Networking resources: Service, ServicePort, Ingress, IngressRule, HTTPIngressPath storage &mdash; Storage resources: PersistentVolume, PersistentVolumeClaim, StorageClass configuration &mdash; Configuration resources: ConfigMap, Secret Resources Kubernetes Documentation &mdash; Concepts Eclipse Modeling Framework (EMF) Nasdanika Ecore model for Kubernetes concepts. Supports creating models of Kubernetes solutions (deployments, services, etc.) and loading information about Kubernetes clusters for reporting, analysis, and generation of recommendations. Cluster Node nodes Resource Namespace namespaces Taint taints LabelSelector KeyValuePair matchLabels labels annotations Telemetry",
-    "timestamp": 1772303526746
+    "timestamp": 1772303884721
   },
   "references/eSubpackages/workloads/references/eClassifiers/ReplicaSet/references/eStructuralFeatures/replicas/index.html": {
     "path": "workloads/ReplicaSet/Attributes/replicas",
-    "link-uuid": "1a862851-11e7-4e46-91cb-8ca8d435fd50",
+    "link-uuid": "857fdb76-3e1b-44f1-bd6e-486ed9f69053",
     "title": "replicas",
     "content": "Type EInt Multiplicity 0..1 Number of desired pods. Defaults to 1.",
-    "timestamp": 1772303527755
+    "timestamp": 1772303885713
   },
   "references/eSubpackages/workloads/references/eClassifiers/Volume/references/eStructuralFeatures/type/index.html": {
     "path": "workloads/Volume/Attributes/type",
-    "link-uuid": "17055556-5b81-43cd-8a51-a89cc7926f71",
+    "link-uuid": "876bd26d-be1a-4c6c-8e93-d49997a6d22f",
     "title": "type",
     "content": "Type EString Multiplicity 0..1 Volume source type (e.g. emptyDir, hostPath, configMap, secret, persistentVolumeClaim, nfs).",
-    "timestamp": 1772303527832
+    "timestamp": 1772303885791
   },
   "references/eSubpackages/workloads/references/eClassifiers/Job/references/eStructuralFeatures/completions/index.html": {
     "path": "workloads/Job/Attributes/completions",
-    "link-uuid": "353d626a-e6af-4f9e-9842-0d205863eec1",
+    "link-uuid": "02a88274-a8d6-4566-a576-d0c2f48a23eb",
     "title": "completions",
     "content": "Type EInt Multiplicity 0..1 Specifies the desired number of successfully finished pods the job should be run with.",
-    "timestamp": 1772303527649
+    "timestamp": 1772303885608
   },
   "references/eSubpackages/storage/references/eClassifiers/StorageClass/references/eStructuralFeatures/volumeBindingMode/index.html": {
     "path": "storage/StorageClass/Attributes/volumeBindingMode",
-    "link-uuid": "743d1229-f965-4a19-a578-450f8dec90b4",
+    "link-uuid": "9a3f61c2-e413-4a99-a0be-561e89e6abec",
     "title": "volumeBindingMode",
     "content": "Type EString Multiplicity 0..1 Indicates how PersistentVolumeClaims should be provisioned and bound. Valid values: Immediate, WaitForFirstConsumer.",
-    "timestamp": 1772303527423
+    "timestamp": 1772303885377
   },
   "references/eSubpackages/networking/references/eClassifiers/ServicePort/index.html": {
     "path": "networking/ServicePort",
-    "link-uuid": "6137fd09-6f75-4a56-b012-54b72a66cf0f",
+    "link-uuid": "51a278ef-b04c-4451-91ec-0f37f1ecac83",
     "title": "ServicePort",
     "content": "Represents a port on a Kubernetes Service.",
-    "timestamp": 1772303527291
+    "timestamp": 1772303885245
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/references/eStructuralFeatures/volumeMounts/index.html": {
     "path": "workloads/Container/References/volumeMounts",
-    "link-uuid": "a50c3f58-a5d7-4231-85a8-f25476b23f08",
+    "link-uuid": "387ba047-0b11-441b-b873-549a238a0500",
     "title": "volumeMounts",
     "content": "Type VolumeMount Multiplicity 0..* Pod volumes to mount into the container&rsquo;s filesystem.",
-    "timestamp": 1772303527495
+    "timestamp": 1772303885449
   },
   "references/eSubpackages/workloads/references/eClassifiers/Pod/references/eStructuralFeatures/serviceAccountName/index.html": {
     "path": "workloads/Pod/Attributes/serviceAccountName",
-    "link-uuid": "fe30f27e-50c2-41ca-8896-7b966ce44159",
+    "link-uuid": "bfd738a2-f9b8-4a3f-9246-f3c292915abc",
     "title": "serviceAccountName",
     "content": "Type EString Multiplicity 0..1 Name of the ServiceAccount to use to run this pod.",
-    "timestamp": 1772303527690
+    "timestamp": 1772303885648
   },
   "references/eClassifiers/Taint/references/eStructuralFeatures/effect/index.html": {
     "path": "Taint/Attributes/effect",
-    "link-uuid": "ab6a8e26-4430-471f-a058-2dc5342ac213",
+    "link-uuid": "2cfb74de-0f68-4287-a163-e2f885378141",
     "title": "effect",
     "content": "Type EString Multiplicity 1 The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule, and NoExecute.",
-    "timestamp": 1772303527037
+    "timestamp": 1772303885001
   },
   "references/eSubpackages/workloads/references/eClassifiers/ResourceRequirements/references/eStructuralFeatures/limits/index.html": {
     "path": "workloads/ResourceRequirements/References/limits",
-    "link-uuid": "ea490daf-69be-42ca-9954-d0ef5d7fa934",
+    "link-uuid": "2052c71b-acc3-4739-b85b-9e92dc2e4ef0",
     "title": "limits",
     "content": "Type KeyValuePair Multiplicity 0..* Maximum amount of compute resources allowed (e.g. cpu: 500m, memory: 128Mi).",
-    "timestamp": 1772303527776
+    "timestamp": 1772303885735
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolume/index.html": {
     "path": "storage/PersistentVolume",
-    "link-uuid": "3ffccc45-4d7d-4042-bfec-dbaccffad104",
+    "link-uuid": "6bef683e-4c93-44f1-91f1-2d505445ebe4",
     "title": "PersistentVolume",
     "content": "A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes. It is a resource in the cluster just like a node is a cluster resource.",
-    "timestamp": 1772303527346
+    "timestamp": 1772303885300
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/references/eStructuralFeatures/containers/index.html": {
     "path": "workloads/PodTemplateSpec/References/containers",
-    "link-uuid": "0f7f711f-1301-4b33-9fff-d1a1e0d9f3c1",
+    "link-uuid": "702c84c7-3d14-4bea-8738-b579bd9de247",
     "title": "containers",
     "content": "Type Container Multiplicity 0..* List of containers belonging to the pod.",
-    "timestamp": 1772303527717
+    "timestamp": 1772303885676
   },
   "references/eSubpackages/storage/references/eClassifiers/StorageClass/references/eStructuralFeatures/provisioner/index.html": {
     "path": "storage/StorageClass/Attributes/provisioner",
-    "link-uuid": "c29fe2e2-0774-49f7-b702-3262ea7e7512",
+    "link-uuid": "f4c15613-e974-4d89-b7ad-561e69158f78",
     "title": "provisioner",
     "content": "Type EString Multiplicity 1 Provisioner indicates the type of the provisioner (e.g. kubernetes.io/aws-ebs, kubernetes.io/gce-pd).",
-    "timestamp": 1772303527419
+    "timestamp": 1772303885373
   },
   "references/eClassifiers/Node/index.html": {
-    "link-uuid": "bb3748e6-d041-4e03-aa04-c2c666b852f8",
+    "link-uuid": "5015f2d4-e42c-41f6-b1c0-547a654c3e02",
     "title": "Node",
     "content": "A Node is a worker machine in Kubernetes - either a VM or a physical machine, depending on the cluster. Each node contains the services necessary to run Pods and is managed by the control plane. Diagram ",
-    "timestamp": 1772303526941
+    "timestamp": 1772303884913
   },
   "references/eSubpackages/networking/references/eClassifiers/Ingress/references/eStructuralFeatures/ingressClassName/index.html": {
     "path": "networking/Ingress/Attributes/ingressClassName",
-    "link-uuid": "6fcbbdfa-529e-49a2-977d-cec8bce64381",
+    "link-uuid": "1f1b4733-6129-4d8e-bb9e-1acdd555b85a",
     "title": "ingressClassName",
     "content": "Type EString Multiplicity 0..1 IngressClassName is the name of an IngressClass cluster resource. Ingress controller implementations use this field to know whether they should be serving this Ingress resource.",
-    "timestamp": 1772303527217
+    "timestamp": 1772303885171
   },
   "references/eSubpackages/networking/references/eClassifiers/Service/references/eStructuralFeatures/type/index.html": {
     "path": "networking/Service/Attributes/type",
-    "link-uuid": "5bc33575-0bbf-4cae-8249-efb84a3431e9",
+    "link-uuid": "274a9bee-df43-485f-86f2-757c845e16e1",
     "title": "type",
     "content": "Type EString Multiplicity 0..1 Type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer.",
-    "timestamp": 1772303527274
+    "timestamp": 1772303885228
   },
   "references/eSubpackages/workloads/references/eClassifiers/Deployment/inheritance.html": {
     "path": "workloads/Deployment/Inheritance",
-    "link-uuid": "ed21398d-c3c5-4d0d-b8ba-ab0bed1003e0",
+    "link-uuid": "c83746b8-beb6-49ab-a696-c0d94bfb3fbf",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527593
+    "timestamp": 1772303885553
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolumeClaim/inheritance.html": {
     "path": "storage/PersistentVolumeClaim/Inheritance",
-    "link-uuid": "26dc5bc2-0c77-4b46-a7b2-2f4dcedd1557",
+    "link-uuid": "9295a4f2-5632-4606-b887-80c737e79693",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527383
+    "timestamp": 1772303885335
   },
   "references/eSubpackages/workloads/references/eClassifiers/ContainerPort/references/eStructuralFeatures/containerPort/index.html": {
     "path": "workloads/ContainerPort/Attributes/containerPort",
-    "link-uuid": "7a39d880-a3cc-43b0-92cd-03f172de9166",
+    "link-uuid": "3b3f8614-8e61-46b2-9b87-1cd5a263866f",
     "title": "containerPort",
     "content": "Type EInt Multiplicity 1 Number of port to expose on the pod&rsquo;s IP address.",
-    "timestamp": 1772303527514
+    "timestamp": 1772303885469
   },
   "references/eClassifiers/Node/inheritance.html": {
     "path": "Node/Inheritance",
-    "link-uuid": "8ea123a6-f5e2-4b75-8ad1-46f176c205eb",
+    "link-uuid": "9d458f95-6761-47a3-bcfe-4a992d30a6a3",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303526943
+    "timestamp": 1772303884915
   },
   "references/eSubpackages/networking/references/eClassifiers/IngressRule/index.html": {
     "path": "networking/IngressRule",
-    "link-uuid": "b2397c33-3591-427c-a532-0efb06a98544",
+    "link-uuid": "4b637a30-0377-4ba1-95d3-13d14a76e315",
     "title": "IngressRule",
     "content": "IngressRule represents the rules mapping the paths under a specified host to the related backend services.",
-    "timestamp": 1772303527234
+    "timestamp": 1772303885189
   },
   "references/eSubpackages/networking/references/eClassifiers/ServicePort/references/eStructuralFeatures/port/index.html": {
     "path": "networking/ServicePort/Attributes/port",
-    "link-uuid": "31d2e266-8c57-477b-b547-8fc420b9416d",
+    "link-uuid": "e35482b2-8c35-4275-8319-bd5d493a5aee",
     "title": "port",
     "content": "Type EInt Multiplicity 1 The port that will be exposed by this service.",
-    "timestamp": 1772303527300
+    "timestamp": 1772303885254
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/references/eStructuralFeatures/nodeSelector/index.html": {
     "path": "workloads/PodTemplateSpec/References/nodeSelector",
-    "link-uuid": "ea37e661-6ee2-493d-a162-3f404673fa05",
+    "link-uuid": "b0d342f8-628a-43b1-9802-1d80850a22f5",
     "title": "nodeSelector",
     "content": "Type KeyValuePair Multiplicity 0..* Selector which must match a node&rsquo;s labels for the pod to be scheduled on that node.",
-    "timestamp": 1772303527726
+    "timestamp": 1772303885683
   },
   "references/eClassifiers/LabelSelector/index.html": {
-    "link-uuid": "560da85b-9e44-4335-9964-d5e589f9ba8b",
+    "link-uuid": "286ce90c-bddd-4ef5-8df7-d7d531f25ee4",
     "title": "LabelSelector",
     "content": "A label selector is a label query over a set of resources. Used by controllers and services to select pods. Diagram ",
-    "timestamp": 1772303526847
+    "timestamp": 1772303884821
   },
   "references/eSubpackages/workloads/references/eClassifiers/VolumeMount/references/eStructuralFeatures/readOnly/index.html": {
     "path": "workloads/VolumeMount/Attributes/readOnly",
-    "link-uuid": "f42df7dd-2d54-46f7-93af-71c3f30798af",
+    "link-uuid": "7bec9e18-529d-455f-8e58-736646a13cbf",
     "title": "readOnly",
     "content": "Type EBoolean Multiplicity 0..1 Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.",
-    "timestamp": 1772303527856
+    "timestamp": 1772303885812
   },
   "references/eSubpackages/workloads/references/eClassifiers/StatefulSet/index.html": {
     "path": "workloads/StatefulSet",
-    "link-uuid": "d43a445b-96cb-4313-850c-6f080b7ed261",
+    "link-uuid": "70e2519f-0b72-44dc-bedc-25868932653c",
     "title": "StatefulSet",
     "content": "StatefulSet is the workload API object used to manage stateful applications. Manages the deployment and scaling of a set of Pods, and provides guarantees about the ordering and uniqueness of these Pods.",
-    "timestamp": 1772303527797
+    "timestamp": 1772303885756
   },
   "references/eSubpackages/workloads/references/eClassifiers/DaemonSet/index.html": {
     "path": "workloads/DaemonSet",
-    "link-uuid": "38053997-7e6c-4033-a2db-76854008d95b",
+    "link-uuid": "e768088d-0481-4340-8305-ad59d2d6606c",
     "title": "DaemonSet",
     "content": "A DaemonSet ensures that all (or some) Nodes run a copy of a Pod. As nodes are added to the cluster, Pods are added to them. As nodes are removed from the cluster, those Pods are garbage collected.",
-    "timestamp": 1772303527564
+    "timestamp": 1772303885520
   },
   "references/eClassifiers/Resource/index.html": {
-    "link-uuid": "c5d572c7-8872-47a4-9366-0243c126f8f1",
+    "link-uuid": "5e111858-20bb-43a4-8f96-1195e49543ba",
     "title": "Resource",
     "content": "Base class for all Kubernetes API resources. Corresponds to the common fields in Kubernetes object metadata. Diagram ",
-    "timestamp": 1772303526996
+    "timestamp": 1772303884960
   },
   "references/eSubpackages/networking/references/eClassifiers/Service/inheritance.html": {
     "path": "networking/Service/Inheritance",
-    "link-uuid": "b0f304a2-e1bc-4758-91bc-1708decf618a",
+    "link-uuid": "c4815f3d-593f-4c96-b32d-95065981d826",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527262
+    "timestamp": 1772303885216
   },
   "references/eClassifiers/Namespace/inheritance.html": {
     "path": "Namespace/Inheritance",
-    "link-uuid": "2fe7a161-6bfe-47f7-9244-de7106773cdd",
+    "link-uuid": "9e0432a4-fbd6-47e8-8a6d-34fc4976fd1d",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303526889
+    "timestamp": 1772303884860
   },
   "references/eSubpackages/workloads/references/eClassifiers/CronJob/references/eStructuralFeatures/suspend/index.html": {
     "path": "workloads/CronJob/Attributes/suspend",
-    "link-uuid": "d97567e0-399c-48c5-b4c6-e73569728756",
+    "link-uuid": "c0fde7b3-55d8-4888-8c77-82cb194a0efd",
     "title": "suspend",
     "content": "Type EBoolean Multiplicity 0..1 This flag tells the controller to suspend subsequent executions, it does not apply to already started executions. Defaults to false.",
-    "timestamp": 1772303527545
+    "timestamp": 1772303885501
   },
   "references/eSubpackages/workloads/references/eClassifiers/Deployment/references/eStructuralFeatures/template/index.html": {
     "path": "workloads/Deployment/References/template",
-    "link-uuid": "a0347f02-5731-4c81-bef8-cf02006e95cb",
+    "link-uuid": "29c3e6db-7c4c-4e7d-b3e3-2039bcc3aed1",
     "title": "template",
     "content": "Type PodTemplateSpec Multiplicity 0..1 Template describes the pods that will be created.",
-    "timestamp": 1772303527602
+    "timestamp": 1772303885563
   },
   "references/eSubpackages/workloads/references/eClassifiers/StatefulSet/references/eStructuralFeatures/selector/index.html": {
     "path": "workloads/StatefulSet/References/selector",
-    "link-uuid": "ac87a799-0182-4a63-a256-5224cd686127",
+    "link-uuid": "260e7075-99c7-4333-bb01-66cc5d2d23f9",
     "title": "selector",
     "content": "Type LabelSelector Multiplicity 0..1 Selector is a label query over pods that should match the replica count.",
-    "timestamp": 1772303527805
+    "timestamp": 1772303885764
   },
   "references/eSubpackages/storage/references/eClassifiers/StorageClass/inheritance.html": {
     "path": "storage/StorageClass/Inheritance",
-    "link-uuid": "ae1a97fc-5195-4782-aa75-5c2b27fd605a",
+    "link-uuid": "62f15742-22f0-465d-920c-75f728bb019c",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527413
+    "timestamp": 1772303885367
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/references/eStructuralFeatures/args/index.html": {
     "path": "workloads/Container/Attributes/args",
-    "link-uuid": "b0c9d7bd-b455-4092-82f6-d042ed90879c",
+    "link-uuid": "9b7a4648-27ed-419f-a177-032bbea58d48",
     "title": "args",
     "content": "Type EString Multiplicity 0..* Arguments to the entrypoint. If not provided, the container image&rsquo;s CMD is used.",
-    "timestamp": 1772303527480
+    "timestamp": 1772303885434
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/references/eStructuralFeatures/imagePullPolicy/index.html": {
     "path": "workloads/Container/Attributes/imagePullPolicy",
-    "link-uuid": "4e632f86-1d31-4b7f-ba94-bbece1604995",
+    "link-uuid": "77fe872f-2dbe-451f-bc4f-305e374e2fdc",
     "title": "imagePullPolicy",
     "content": "Type EString Multiplicity 0..1 Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise.",
-    "timestamp": 1772303527487
+    "timestamp": 1772303885441
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/references/eStructuralFeatures/initContainers/index.html": {
     "path": "workloads/PodTemplateSpec/References/initContainers",
-    "link-uuid": "eaece618-2a17-4699-a6e6-540ba3f362fe",
+    "link-uuid": "e55f57e6-8592-4df2-a035-bc761d985f90",
     "title": "initContainers",
     "content": "Type Container Multiplicity 0..* List of initialization containers belonging to the pod. Init containers are executed in order prior to the main containers being started.",
-    "timestamp": 1772303527720
+    "timestamp": 1772303885678
   },
   "references/eSubpackages/workloads/references/eClassifiers/Job/inheritance.html": {
     "path": "workloads/Job/Inheritance",
-    "link-uuid": "93df4ef9-2f89-4bdd-bed1-9a376fb984c5",
+    "link-uuid": "3e54ec48-4285-4855-ac22-5f217af0d39e",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527643
+    "timestamp": 1772303885602
   },
   "references/eSubpackages/storage/references/eClassifiers/StorageClass/references/eStructuralFeatures/reclaimPolicy/index.html": {
     "path": "storage/StorageClass/Attributes/reclaimPolicy",
-    "link-uuid": "cd7dc5f8-a381-48d4-b286-a02a23d95cb0",
+    "link-uuid": "91856078-5989-4542-a54c-bb6ce5cc7627",
     "title": "reclaimPolicy",
     "content": "Type EString Multiplicity 0..1 Dynamically provisioned PersistentVolumes of this storage class are created with this reclaimPolicy. Defaults to Delete.",
-    "timestamp": 1772303527421
+    "timestamp": 1772303885375
   },
   "references/eSubpackages/storage/index.html": {
-    "link-uuid": "eff8e244-78a8-42e4-b666-7b70c52390d2",
+    "link-uuid": "6e517ef4-f620-4746-b7b0-c3594ec2cc1b",
     "title": "storage",
     "content": "Storage resources for persistent data. Kubernetes supports many types of volumes. PersistentVolumes and PersistentVolumeClaims provide an API for users and administrators that abstracts details of how storage is provided from how it is consumed.",
-    "timestamp": 1772303527331
+    "timestamp": 1772303885284
   },
   "references/eClassifiers/Cluster/references/eStructuralFeatures/persistentVolumes/index.html": {
     "path": "Cluster/References/persistentVolumes",
-    "link-uuid": "654c6fbb-ec96-4c2d-9255-912d24950214",
+    "link-uuid": "74259e5b-7b98-4d72-8339-250f5a5f011c",
     "title": "persistentVolumes",
     "content": "Type PersistentVolume Multiplicity 0..* Cluster-scoped persistent volumes.",
-    "timestamp": 1772303526788
+    "timestamp": 1772303884762
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/services/index.html": {
     "path": "Namespace/References/services",
-    "link-uuid": "1cdde806-30b9-4d12-944e-37fcd713dffd",
+    "link-uuid": "33882b37-2aea-41b7-ab65-63f2c272a8df",
     "title": "services",
     "content": "Type Service Multiplicity 0..* Services in this namespace.",
-    "timestamp": 1772303526920
+    "timestamp": 1772303884890
   },
   "references/eSubpackages/networking/references/eClassifiers/Service/references/eStructuralFeatures/externalName/index.html": {
     "path": "networking/Service/Attributes/externalName",
-    "link-uuid": "99ab16d1-eb47-452d-bbde-f18ea5f8fd60",
+    "link-uuid": "1c53e4c7-b662-40fc-9620-57b14420b9ae",
     "title": "externalName",
     "content": "Type EString Multiplicity 0..1 The external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). Only applies to ExternalName type.",
-    "timestamp": 1772303527268
+    "timestamp": 1772303885222
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/ingresses/index.html": {
     "path": "Namespace/References/ingresses",
-    "link-uuid": "f038bf64-87f0-4582-8250-b9211a76dae0",
+    "link-uuid": "f854ae00-8fcb-41b8-b5e6-822f439f8166",
     "title": "ingresses",
     "content": "Type Ingress Multiplicity 0..* Ingress resources in this namespace.",
-    "timestamp": 1772303526905
+    "timestamp": 1772303884874
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/references/eStructuralFeatures/annotations/index.html": {
     "path": "workloads/PodTemplateSpec/References/annotations",
-    "link-uuid": "8d84acd1-2d4a-4063-8a6f-797c59697873",
+    "link-uuid": "ccb8d9a5-4747-497f-827b-6f0dff3d764d",
     "title": "annotations",
     "content": "Type KeyValuePair Multiplicity 0..* Annotations for pods created from this template.",
-    "timestamp": 1772303527715
+    "timestamp": 1772303885674
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/cronJobs/index.html": {
     "path": "Namespace/References/cronJobs",
-    "link-uuid": "7ddcabdf-4cf9-4b46-a20e-a78f04e149d2",
+    "link-uuid": "6d4229bf-4ca3-43b6-9170-e800b49f6c4c",
     "title": "cronJobs",
     "content": "Type CronJob Multiplicity 0..* CronJobs in this namespace.",
-    "timestamp": 1772303526897
+    "timestamp": 1772303884867
   },
   "references/eClassifiers/Node/references/eStructuralFeatures/unschedulable/index.html": {
     "path": "Node/Attributes/unschedulable",
-    "link-uuid": "49b84d51-835f-45f4-acb6-dafe1fc65614",
+    "link-uuid": "7f708efa-fa52-4e38-acaf-0851be4be77b",
     "title": "unschedulable",
     "content": "Type EBoolean Multiplicity 0..1 Unschedulable controls node schedulability of new pods. By default, node is schedulable.",
-    "timestamp": 1772303526959
+    "timestamp": 1772303884925
   },
   "references/eSubpackages/workloads/references/eClassifiers/EnvVar/references/eStructuralFeatures/name/index.html": {
     "path": "workloads/EnvVar/Attributes/name",
-    "link-uuid": "13a1e33e-3068-40c4-9c68-e25b6811305d",
+    "link-uuid": "5736429a-20d2-486b-ba1d-99e93caa9a67",
     "title": "name",
     "content": "Type EString Multiplicity 1 Name of the environment variable.",
-    "timestamp": 1772303527623
+    "timestamp": 1772303885581
   },
   "references/eSubpackages/configuration/references/eClassifiers/ConfigMap/inheritance.html": {
     "path": "configuration/ConfigMap/Inheritance",
-    "link-uuid": "86edc480-c747-4bee-a79c-5dfa3549dd48",
+    "link-uuid": "0ea1b946-546c-4bb5-be5a-1a96139ededd",
     "title": "Inheritance",
     "content": "Supertypes ",
-    "timestamp": 1772303527095
+    "timestamp": 1772303885058
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/references/eStructuralFeatures/env/index.html": {
     "path": "workloads/Container/References/env",
-    "link-uuid": "4ad082a5-f154-490b-89c3-58efd1f2a32e",
+    "link-uuid": "4d1010de-b80d-4ccd-be1e-cba9ed7a575d",
     "title": "env",
     "content": "Type EnvVar Multiplicity 0..* List of environment variables to set in the container.",
-    "timestamp": 1772303527484
+    "timestamp": 1772303885438
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/references/eStructuralFeatures/resources/index.html": {
     "path": "workloads/Container/References/resources",
-    "link-uuid": "da380898-43d9-4a92-a02e-9a3afbfa4c5f",
+    "link-uuid": "5f2f3b25-fd48-4820-8d9a-0bf1c39e4188",
     "title": "resources",
     "content": "Type ResourceRequirements Multiplicity 0..1 Compute resource requirements for this container.",
-    "timestamp": 1772303527493
+    "timestamp": 1772303885447
   },
   "references/eClassifiers/KeyValuePair/references/eStructuralFeatures/value/index.html": {
     "path": "KeyValuePair/Attributes/value",
-    "link-uuid": "d1a1f27b-e705-4a5f-8857-2ffe8b133335",
+    "link-uuid": "53386b83-46a3-4859-91e5-f7c414178070",
     "title": "value",
     "content": "Type EString Multiplicity 0..1 The value of the pair.",
-    "timestamp": 1772303526828
+    "timestamp": 1772303884803
   },
   "references/eSubpackages/storage/references/eClassifiers/StorageClass/index.html": {
     "path": "storage/StorageClass",
-    "link-uuid": "3d10db55-d71e-4bcc-ac2b-951deb9eb62a",
+    "link-uuid": "ca7d9713-5a2b-4c79-be9b-622395b7ac62",
     "title": "StorageClass",
     "content": "A StorageClass provides a way for administrators to describe the &lsquo;classes&rsquo; of storage they offer. Different classes might map to quality-of-service levels, or to backup policies, or to arbitrary policies determined by the cluster administrators.",
-    "timestamp": 1772303527411
+    "timestamp": 1772303885365
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolumeClaim/references/eStructuralFeatures/accessModes/index.html": {
     "path": "storage/PersistentVolumeClaim/Attributes/accessModes",
-    "link-uuid": "a02f7d37-c65e-4fa0-876d-d1ea0ef9ea14",
+    "link-uuid": "62ef10aa-23fb-4f51-90a7-2792c02a6fa1",
     "title": "accessModes",
     "content": "Type EString Multiplicity 0..* The desired access modes the volume should have (e.g. ReadWriteOnce).",
-    "timestamp": 1772303527387
+    "timestamp": 1772303885339
   },
   "references/eSubpackages/networking/references/eClassifiers/HTTPIngressPath/references/eStructuralFeatures/servicePort/index.html": {
     "path": "networking/HTTPIngressPath/Attributes/servicePort",
-    "link-uuid": "919a4954-118c-4417-9694-6911c97ab0cc",
+    "link-uuid": "a4836ae8-3900-488b-80ff-f49a12881a85",
     "title": "servicePort",
     "content": "Type EInt Multiplicity 1 Port of the referenced service.",
-    "timestamp": 1772303527195
+    "timestamp": 1772303885149
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/references/eStructuralFeatures/command/index.html": {
     "path": "workloads/Container/Attributes/command",
-    "link-uuid": "0db45c2b-d12f-47e0-bd21-9b1af585a3b6",
+    "link-uuid": "040ec979-9c2c-451b-831f-aa6f9b6f5995",
     "title": "command",
     "content": "Type EString Multiplicity 0..* Entrypoint array. Not executed within a shell. If not provided, the container image&rsquo;s ENTRYPOINT is used.",
-    "timestamp": 1772303527482
+    "timestamp": 1772303885436
   },
   "references/eSubpackages/workloads/references/eClassifiers/ResourceRequirements/index.html": {
     "path": "workloads/ResourceRequirements",
-    "link-uuid": "bc9cb27c-d42a-4c97-a164-6e58b2599928",
+    "link-uuid": "a3951a83-607b-4378-98e6-71cf2145aecf",
     "title": "ResourceRequirements",
     "content": "Describes the compute resource requirements for a container, including CPU and memory limits and requests.",
-    "timestamp": 1772303527773
+    "timestamp": 1772303885731
   },
   "references/eSubpackages/workloads/references/eClassifiers/Pod/references/eStructuralFeatures/initContainers/index.html": {
     "path": "workloads/Pod/References/initContainers",
-    "link-uuid": "59999e8a-b1f2-4467-b16c-232bb89aae4c",
+    "link-uuid": "c95a42a6-73a7-4890-bbbc-690ad364f6da",
     "title": "initContainers",
     "content": "Type Container Multiplicity 0..* List of initialization containers belonging to the pod.",
-    "timestamp": 1772303527682
+    "timestamp": 1772303885641
   },
   "references/eSubpackages/networking/references/eClassifiers/Service/references/eStructuralFeatures/clusterIP/index.html": {
     "path": "networking/Service/Attributes/clusterIP",
-    "link-uuid": "33b04690-17e0-4bc6-a591-ea9c7846aafd",
+    "link-uuid": "7ab53e53-0b06-4980-b637-108da197fafb",
     "title": "clusterIP",
     "content": "Type EString Multiplicity 0..1 ClusterIP is the IP address of the service. It is usually assigned randomly. Set to &lsquo;None&rsquo; for headless services.",
-    "timestamp": 1772303527266
+    "timestamp": 1772303885220
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolumeClaim/index.html": {
     "path": "storage/PersistentVolumeClaim",
-    "link-uuid": "fee9c698-d1ce-478a-8b2e-3605a1a6f8dc",
+    "link-uuid": "230053a5-85b5-4da5-8c89-091b35f9d51c",
     "title": "PersistentVolumeClaim",
     "content": "A PersistentVolumeClaim (PVC) is a request for storage by a user. It is similar to a Pod. Pods consume node resources and PVCs consume PV resources. Claims can request specific size and access modes.",
-    "timestamp": 1772303527381
+    "timestamp": 1772303885333
   },
   "references/eSubpackages/workloads/references/eClassifiers/VolumeMount/references/eStructuralFeatures/subPath/index.html": {
     "path": "workloads/VolumeMount/Attributes/subPath",
-    "link-uuid": "c5052b19-65b8-4b55-8266-70d14ff5f1dc",
+    "link-uuid": "6b7e325c-8936-49c9-ac35-a1df804ef09d",
     "title": "subPath",
     "content": "Type EString Multiplicity 0..1 Path within the volume from which the container&rsquo;s volume should be mounted. Defaults to the volume&rsquo;s root.",
-    "timestamp": 1772303527858
+    "timestamp": 1772303885815
   },
   "references/eSubpackages/storage/references/eClassifiers/PersistentVolume/references/eStructuralFeatures/storageClassName/index.html": {
     "path": "storage/PersistentVolume/Attributes/storageClassName",
-    "link-uuid": "b6c915a6-1045-4f74-ba04-8b2d96cc9621",
+    "link-uuid": "02513a0c-43fd-4fb0-a882-88e4d1098651",
     "title": "storageClassName",
     "content": "Type EString Multiplicity 0..1 Name of StorageClass to which this persistent volume belongs.",
-    "timestamp": 1772303527360
+    "timestamp": 1772303885312
   },
   "references/eSubpackages/workloads/references/eClassifiers/PodTemplateSpec/references/eStructuralFeatures/volumes/index.html": {
     "path": "workloads/PodTemplateSpec/References/volumes",
-    "link-uuid": "e247d51a-d23a-4410-8eaa-9491b76f96e8",
+    "link-uuid": "6a68d854-ecc5-433b-b61b-13ab7e9d5915",
     "title": "volumes",
     "content": "Type Volume Multiplicity 0..* List of volumes that can be mounted by containers belonging to the pod.",
-    "timestamp": 1772303527731
+    "timestamp": 1772303885689
   },
   "references/eSubpackages/workloads/references/eClassifiers/Job/references/eStructuralFeatures/parallelism/index.html": {
     "path": "workloads/Job/Attributes/parallelism",
-    "link-uuid": "63e585d8-dbfd-4d5a-b806-d10e59552103",
+    "link-uuid": "1e01036f-adfc-478b-ac4b-36e391925aa9",
     "title": "parallelism",
     "content": "Type EInt Multiplicity 0..1 Specifies the maximum desired number of pods the job should run at any given time.",
-    "timestamp": 1772303527650
+    "timestamp": 1772303885610
   },
   "references/eSubpackages/workloads/references/eClassifiers/Container/references/eStructuralFeatures/image/index.html": {
     "path": "workloads/Container/Attributes/image",
-    "link-uuid": "df66c7f6-11a1-427c-8579-8a2121cadaa8",
+    "link-uuid": "aa6740ae-5886-40f1-9cc1-699b9b45dd33",
     "title": "image",
     "content": "Type EString Multiplicity 0..1 Container image name (e.g. nginx:1.14.2, registry.example.com/my-app:latest).",
-    "timestamp": 1772303527486
+    "timestamp": 1772303885440
   },
   "references/eClassifiers/KeyValuePair/index.html": {
-    "link-uuid": "bd57e1fc-adde-4e23-b63e-8f046cec75fd",
+    "link-uuid": "1c244e4a-d751-4864-bb1e-ad866842ddd8",
     "title": "KeyValuePair",
     "content": "A generic key-value pair used for labels, annotations, selectors, environment variables, and data maps. Diagram ",
-    "timestamp": 1772303526821
+    "timestamp": 1772303884794
   },
   "references/eSubpackages/workloads/references/eClassifiers/Volume/references/eStructuralFeatures/name/index.html": {
     "path": "workloads/Volume/Attributes/name",
-    "link-uuid": "7b5614ec-a3c2-4e53-ad60-cd16845535df",
+    "link-uuid": "516f7c45-e168-40ce-8b8f-1b93047b745b",
     "title": "name",
     "content": "Type EString Multiplicity 1 Volume&rsquo;s name. Must be a DNS_LABEL and unique within the pod.",
-    "timestamp": 1772303527831
+    "timestamp": 1772303885789
   },
   "references/eSubpackages/networking/references/eClassifiers/HTTPIngressPath/index.html": {
     "path": "networking/HTTPIngressPath",
-    "link-uuid": "869004ce-ad81-479b-8549-39d2dab98fc0",
+    "link-uuid": "cfd28fa4-8e05-4fed-af63-f508615384b7",
     "title": "HTTPIngressPath",
     "content": "Associates a path with a backend. Incoming URLs matching the path are forwarded to the backend.",
-    "timestamp": 1772303527185
+    "timestamp": 1772303885138
   },
   "references/eClassifiers/Resource/references/eStructuralFeatures/namespace/index.html": {
     "path": "Resource/Attributes/namespace",
-    "link-uuid": "e833f6d6-0a16-4ac5-aa59-5ac9122c3ef9",
+    "link-uuid": "0230aeed-079a-4db1-8d8d-657e4c23bf16",
     "title": "namespace",
     "content": "Type EString Multiplicity 0..1 Namespace defines the space within which each name must be unique.",
-    "timestamp": 1772303527015
+    "timestamp": 1772303884978
   },
   "references/eSubpackages/workloads/references/eClassifiers/StatefulSet/references/eStructuralFeatures/template/index.html": {
     "path": "workloads/StatefulSet/References/template",
-    "link-uuid": "0e85d668-a5dd-4ddb-94a4-fa69d4ac6f43",
+    "link-uuid": "16a62864-7d60-4dd6-8b83-aac45514cf60",
     "title": "template",
     "content": "Type PodTemplateSpec Multiplicity 0..1 Template is the object that describes the pod that will be created.",
-    "timestamp": 1772303527809
+    "timestamp": 1772303885768
   },
   "references/eClassifiers/Namespace/references/eStructuralFeatures/deployments/index.html": {
     "path": "Namespace/References/deployments",
-    "link-uuid": "08cbadc5-b9f6-483b-8d7e-c41793bb75fd",
+    "link-uuid": "f60cd16b-97fa-4db0-bfd0-4808ba3a0a48",
     "title": "deployments",
     "content": "Type Deployment Multiplicity 0..* Deployments in this namespace.",
-    "timestamp": 1772303526902
+    "timestamp": 1772303884872
   }
 }
