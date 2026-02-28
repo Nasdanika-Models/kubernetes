@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.nasdanika.models.kubernetes/src/main/java"
+    creationIcons="false" editorDirectory="" modelPluginID="org.nasdanika.models.kubernetes"
+    modelName="Kubernetes" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" bundleManifest="false" featureDelegation="Dynamic"
+    complianceLevel="17.0" suppressGenModelAnnotations="false" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>kubernetes.ecore</foreignModel>
+  <genPackages prefix="Kubernetes" basePackage="org.nasdanika.models" disposableProviderFactory="true"
+      ecorePackage="kubernetes.ecore#/">
+    <genClasses ecoreClass="kubernetes.ecore#//KeyValuePair">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//KeyValuePair/key"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//KeyValuePair/value"/>
+    </genClasses>
+    <genClasses ecoreClass="kubernetes.ecore#//LabelSelector">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//LabelSelector/matchLabels"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="kubernetes.ecore#//Resource">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Resource/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Resource/namespace"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Resource/apiVersion"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Resource/kind"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Resource/labels"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Resource/annotations"/>
+    </genClasses>
+    <genClasses ecoreClass="kubernetes.ecore#//Cluster">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Cluster/namespaces"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Cluster/nodes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Cluster/persistentVolumes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Cluster/storageClasses"/>
+    </genClasses>
+    <genClasses ecoreClass="kubernetes.ecore#//Namespace">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/deployments"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/statefulSets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/daemonSets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/replicaSets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/pods"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/services"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/ingresses"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/configMaps"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/secrets"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/jobs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/cronJobs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Namespace/persistentVolumeClaims"/>
+    </genClasses>
+    <genClasses ecoreClass="kubernetes.ecore#//Node">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Node/podCIDR"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Node/unschedulable"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//Node/taints"/>
+    </genClasses>
+    <genClasses ecoreClass="kubernetes.ecore#//Taint">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Taint/key"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Taint/value"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Taint/effect"/>
+    </genClasses>
+    <nestedGenPackages prefix="Workloads" disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//workloads">
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/Container">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Container/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Container/image"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Container/imagePullPolicy"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Container/ports"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Container/env"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Container/volumeMounts"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Container/resources"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Container/command"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Container/args"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/ContainerPort">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/ContainerPort/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/ContainerPort/containerPort"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/ContainerPort/hostPort"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/ContainerPort/protocol"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/EnvVar">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/EnvVar/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/EnvVar/value"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/VolumeMount">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/VolumeMount/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/VolumeMount/mountPath"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/VolumeMount/readOnly"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/VolumeMount/subPath"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/ResourceRequirements">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/ResourceRequirements/limits"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/ResourceRequirements/requests"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/Volume">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Volume/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Volume/type"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/PodTemplateSpec">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/PodTemplateSpec/labels"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/PodTemplateSpec/annotations"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/PodTemplateSpec/containers"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/PodTemplateSpec/initContainers"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/PodTemplateSpec/volumes"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/PodTemplateSpec/restartPolicy"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/PodTemplateSpec/serviceAccountName"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/PodTemplateSpec/nodeName"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/PodTemplateSpec/nodeSelector"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/Pod">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Pod/containers"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Pod/initContainers"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Pod/volumes"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Pod/restartPolicy"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Pod/nodeName"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Pod/serviceAccountName"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Pod/phase"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/Deployment">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Deployment/replicas"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Deployment/selector"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Deployment/template"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Deployment/strategyType"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/ReplicaSet">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/ReplicaSet/replicas"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/ReplicaSet/selector"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/ReplicaSet/template"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/StatefulSet">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/StatefulSet/replicas"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/StatefulSet/selector"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/StatefulSet/template"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/StatefulSet/serviceName"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/StatefulSet/volumeClaimTemplates"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/DaemonSet">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/DaemonSet/selector"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/DaemonSet/template"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/Job">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Job/selector"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/Job/template"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Job/completions"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Job/parallelism"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Job/backoffLimit"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//workloads/CronJob">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/CronJob/schedule"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//workloads/CronJob/jobTemplate"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/CronJob/suspend"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Networking" disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//networking">
+      <genClasses ecoreClass="kubernetes.ecore#//networking/Service">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//networking/Service/selector"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//networking/Service/ports"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/Service/type"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/Service/clusterIP"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/Service/externalName"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//networking/ServicePort">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/ServicePort/name"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/ServicePort/port"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/ServicePort/targetPort"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/ServicePort/nodePort"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/ServicePort/protocol"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//networking/Ingress">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//networking/Ingress/rules"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/Ingress/ingressClassName"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//networking/IngressRule">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/IngressRule/host"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//networking/IngressRule/paths"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//networking/HTTPIngressPath">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/HTTPIngressPath/path"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/HTTPIngressPath/pathType"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/HTTPIngressPath/serviceName"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/HTTPIngressPath/servicePort"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Storage" disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//storage">
+      <genClasses ecoreClass="kubernetes.ecore#//storage/PersistentVolume">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//storage/PersistentVolume/capacity"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//storage/PersistentVolume/accessModes"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//storage/PersistentVolume/reclaimPolicy"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//storage/PersistentVolume/storageClassName"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//storage/PersistentVolumeClaim">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//storage/PersistentVolumeClaim/accessModes"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//storage/PersistentVolumeClaim/storageClassName"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//storage/PersistentVolumeClaim/resources"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//storage/StorageClass">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//storage/StorageClass/provisioner"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//storage/StorageClass/reclaimPolicy"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//storage/StorageClass/volumeBindingMode"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//storage/StorageClass/parameters"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Configuration" disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//configuration">
+      <genClasses ecoreClass="kubernetes.ecore#//configuration/ConfigMap">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//configuration/ConfigMap/data"/>
+      </genClasses>
+      <genClasses ecoreClass="kubernetes.ecore#//configuration/Secret">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//configuration/Secret/type"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//configuration/Secret/data"/>
+      </genClasses>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>
