@@ -4,19 +4,19 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.nasdanika.models.kubernetes</groupId>
-		<version>2024.1.0</version>
+		<version>2026.2.0</version>
 		<artifactId>parent</artifactId>
 		<relativePath>..</relativePath>
 	</parent>
 	<artifactId>model</artifactId>
 	<packaging>jar</packaging>
-	<name>Kubernetes Ecore Model</name>
+	<name>Ecore Kubernetes Model</name>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
-				<version>3.3.0</version>
+				<version>3.5.0</version>
 				<executions>
 					<execution>
 						<phase>package</phase>
@@ -32,7 +32,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>		
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
@@ -56,16 +56,16 @@
 		</plugins>
 	</build>
 
-	<dependencies>
+	<dependencies>	
 		<dependency>
-			<groupId>org.nasdanika.core</groupId>
-			<artifactId>ncore</artifactId>
-			<version>${core.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.eclipse.emf</groupId>
-			<artifactId>org.eclipse.emf.ecore</artifactId>
-			<version>2.36.0</version>
-		</dependency>
+		    <groupId>org.eclipse.emf</groupId>
+		    <artifactId>org.eclipse.emf.ecore</artifactId>
+		    <version>2.41.0</version>
+		</dependency> 		
+        <dependency>
+            <groupId>org.nasdanika.core</groupId>
+            <artifactId>capability</artifactId>
+            <version>${core.version}</version>
+        </dependency>       
 	</dependencies>
 </project>

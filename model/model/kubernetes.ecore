@@ -125,8 +125,8 @@
         <details key="documentation" value="ReplicaSets in this namespace."/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="pods" upperBound="-1"
-        eType="#//workloads/Pod" containment="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="pods" upperBound="-1" eType="#//workloads/Pod"
+        containment="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Pods in this namespace."/>
       </eAnnotations>
@@ -155,8 +155,8 @@
         <details key="documentation" value="Secrets in this namespace."/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="jobs" upperBound="-1"
-        eType="#//workloads/Job" containment="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="jobs" upperBound="-1" eType="#//workloads/Job"
+        containment="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Jobs in this namespace."/>
       </eAnnotations>
@@ -167,8 +167,8 @@
         <details key="documentation" value="CronJobs in this namespace."/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="persistentVolumeClaims" upperBound="-1"
-        eType="#//storage/PersistentVolumeClaim" containment="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="persistentVolumeClaims"
+        upperBound="-1" eType="#//storage/PersistentVolumeClaim" containment="true">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="PersistentVolumeClaims in this namespace."/>
       </eAnnotations>
@@ -209,13 +209,15 @@
         <details key="documentation" value="The taint value corresponding to the taint key."/>
       </eAnnotations>
     </eStructuralFeatures>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="effect" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="effect" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule, and NoExecute."/>
       </eAnnotations>
     </eStructuralFeatures>
   </eClassifiers>
-  <eSubpackages name="workloads" nsURI="ecore://nasdanika.org/models/kubernetes/workloads" nsPrefix="org.nasdanika.models.kubernetes.workloads">
+  <eSubpackages name="workloads" nsURI="ecore://nasdanika.org/models/kubernetes/workloads"
+      nsPrefix="org.nasdanika.models.kubernetes.workloads">
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
       <details key="documentation" value="Workload resources manage Pods. Pods represent a set of running containers in your cluster. Controllers manage the lifecycle and scaling of pods."/>
     </eAnnotations>
@@ -223,7 +225,8 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="A single application container that you want to run within a pod. Each container in a Pod has its own image, ports, environment, and resource requirements."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Name of the container. Each container in a pod must have a unique name."/>
         </eAnnotations>
@@ -256,17 +259,20 @@
           <details key="documentation" value="Pod volumes to mount into the container's filesystem."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="resources" eType="#//workloads/ResourceRequirements" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="resources" eType="#//workloads/ResourceRequirements"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Compute resource requirements for this container."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="command" upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="command" upperBound="-1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Entrypoint array. Not executed within a shell. If not provided, the container image's ENTRYPOINT is used."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="args" upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="args" upperBound="-1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Arguments to the entrypoint. If not provided, the container image's CMD is used."/>
         </eAnnotations>
@@ -281,7 +287,8 @@
           <details key="documentation" value="If specified, this must be an IANA_SVC_NAME and unique within the pod."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="containerPort" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="containerPort" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Number of port to expose on the pod's IP address."/>
         </eAnnotations>
@@ -301,7 +308,8 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="An environment variable to set in a container."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Name of the environment variable."/>
         </eAnnotations>
@@ -316,12 +324,14 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Describes a volume mount within a container."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="This must match the Name of a Volume."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="mountPath" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="mountPath" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Path within the container at which the volume should be mounted."/>
         </eAnnotations>
@@ -358,7 +368,8 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="Represents a named volume in a pod that may be accessed by any container in the pod."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Volume's name. Must be a DNS_LABEL and unique within the pod."/>
         </eAnnotations>
@@ -472,17 +483,20 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="A Deployment provides declarative updates for Pods and ReplicaSets. You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="replicas" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="1">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="replicas" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+          defaultValueLiteral="1">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Number of desired pods. Defaults to 1."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Label selector for pods. Existing ReplicaSets whose pods are selected by this will be the ones affected by this deployment."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Template describes the pods that will be created."/>
         </eAnnotations>
@@ -497,17 +511,20 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. It is often used to guarantee the availability of a specified number of identical Pods."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="replicas" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="1">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="replicas" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+          defaultValueLiteral="1">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Number of desired pods. Defaults to 1."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Selector is a label query over pods that should match the replica count."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Template is the object that describes the pod that will be created."/>
         </eAnnotations>
@@ -517,17 +534,20 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="StatefulSet is the workload API object used to manage stateful applications. Manages the deployment and scaling of a set of Pods, and provides guarantees about the ordering and uniqueness of these Pods."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="replicas" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="1">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="replicas" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"
+          defaultValueLiteral="1">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Number of desired pods. Defaults to 1."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Selector is a label query over pods that should match the replica count."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Template is the object that describes the pod that will be created."/>
         </eAnnotations>
@@ -537,8 +557,8 @@
           <details key="documentation" value="ServiceName is the name of the service that governs this StatefulSet. This service must exist before the StatefulSet, and is responsible for the network identity of the set."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="volumeClaimTemplates" upperBound="-1"
-          eType="#//storage/PersistentVolumeClaim" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="volumeClaimTemplates"
+          upperBound="-1" eType="#//storage/PersistentVolumeClaim" containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="VolumeClaimTemplates is a list of claims that pods are allowed to reference. The StatefulSet controller is responsible for mapping network identities to claims in a way that maintains the identity of a pod."/>
         </eAnnotations>
@@ -548,12 +568,14 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="A DaemonSet ensures that all (or some) Nodes run a copy of a Pod. As nodes are added to the cluster, Pods are added to them. As nodes are removed from the cluster, those Pods are garbage collected."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="A label query over pods that are managed by the daemon set."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="An object that describes the pod that will be created on each node."/>
         </eAnnotations>
@@ -563,12 +585,14 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="A Job creates one or more Pods and will continue to retry execution of the Pods until a specified number of them successfully terminate."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="selector" eType="#//LabelSelector"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="A label query over pods that should match the pod count."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="template" eType="#//workloads/PodTemplateSpec"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Describes the pod that will be created when executing a job."/>
         </eAnnotations>
@@ -593,12 +617,14 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="A CronJob creates Jobs on a repeating schedule. CronJob is meant for performing regular scheduled actions such as backups, report generation, and so on."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="schedule" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="schedule" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="The schedule in Cron format (e.g. '*/5 * * * *' for every 5 minutes)."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="jobTemplate" eType="#//workloads/Job" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="jobTemplate" eType="#//workloads/Job"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Specifies the job that will be created when executing a CronJob."/>
         </eAnnotations>
@@ -610,7 +636,8 @@
       </eStructuralFeatures>
     </eClassifiers>
   </eSubpackages>
-  <eSubpackages name="networking" nsURI="ecore://nasdanika.org/models/kubernetes/networking" nsPrefix="org.nasdanika.models.kubernetes.networking">
+  <eSubpackages name="networking" nsURI="ecore://nasdanika.org/models/kubernetes/networking"
+      nsPrefix="org.nasdanika.models.kubernetes.networking">
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
       <details key="documentation" value="Networking resources for exposing applications. Services provide stable network endpoints for pods, and Ingress manages external HTTP/HTTPS access."/>
     </eAnnotations>
@@ -655,7 +682,8 @@
           <details key="documentation" value="The name of this port within the service. This must be a DNS_LABEL."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="port" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="port" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="The port that will be exposed by this service."/>
         </eAnnotations>
@@ -717,24 +745,28 @@
           <details key="documentation" value="Path is matched against the path of an incoming request (e.g. /testpath)."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="pathType" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="pathType" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="PathType determines the interpretation of the Path matching. Valid values: Exact, Prefix, ImplementationSpecific."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="serviceName" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="serviceName" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Name of the referenced service."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="servicePort" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="servicePort" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Port of the referenced service."/>
         </eAnnotations>
       </eStructuralFeatures>
     </eClassifiers>
   </eSubpackages>
-  <eSubpackages name="storage" nsURI="ecore://nasdanika.org/models/kubernetes/storage" nsPrefix="org.nasdanika.models.kubernetes.storage">
+  <eSubpackages name="storage" nsURI="ecore://nasdanika.org/models/kubernetes/storage"
+      nsPrefix="org.nasdanika.models.kubernetes.storage">
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
       <details key="documentation" value="Storage resources for persistent data. Kubernetes supports many types of volumes. PersistentVolumes and PersistentVolumeClaims provide an API for users and administrators that abstracts details of how storage is provided from how it is consumed."/>
     </eAnnotations>
@@ -748,7 +780,8 @@
           <details key="documentation" value="A description of the persistent volume's resources and capacity (e.g. storage: 5Gi)."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessModes" upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessModes" upperBound="-1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Access modes the volume can be mounted with. Valid values: ReadWriteOnce, ReadOnlyMany, ReadWriteMany, ReadWriteOncePod."/>
         </eAnnotations>
@@ -768,7 +801,8 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="A PersistentVolumeClaim (PVC) is a request for storage by a user. It is similar to a Pod. Pods consume node resources and PVCs consume PV resources. Claims can request specific size and access modes."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessModes" upperBound="-1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="accessModes" upperBound="-1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="The desired access modes the volume should have (e.g. ReadWriteOnce)."/>
         </eAnnotations>
@@ -778,7 +812,8 @@
           <details key="documentation" value="Name of the StorageClass required by the claim."/>
         </eAnnotations>
       </eStructuralFeatures>
-      <eStructuralFeatures xsi:type="ecore:EReference" name="resources" eType="#//workloads/ResourceRequirements" containment="true">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="resources" eType="#//workloads/ResourceRequirements"
+          containment="true">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Resources represents the minimum resources the volume should have (e.g. storage: 8Gi)."/>
         </eAnnotations>
@@ -788,7 +823,8 @@
       <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
         <details key="documentation" value="A StorageClass provides a way for administrators to describe the 'classes' of storage they offer. Different classes might map to quality-of-service levels, or to backup policies, or to arbitrary policies determined by the cluster administrators."/>
       </eAnnotations>
-      <eStructuralFeatures xsi:type="ecore:EAttribute" name="provisioner" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="provisioner" lowerBound="1"
+          eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString">
         <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
           <details key="documentation" value="Provisioner indicates the type of the provisioner (e.g. kubernetes.io/aws-ebs, kubernetes.io/gce-pd)."/>
         </eAnnotations>
@@ -811,7 +847,8 @@
       </eStructuralFeatures>
     </eClassifiers>
   </eSubpackages>
-  <eSubpackages name="configuration" nsURI="ecore://nasdanika.org/models/kubernetes/configuration" nsPrefix="org.nasdanika.models.kubernetes.configuration">
+  <eSubpackages name="configuration" nsURI="ecore://nasdanika.org/models/kubernetes/configuration"
+      nsPrefix="org.nasdanika.models.kubernetes.configuration">
     <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
       <details key="documentation" value="Configuration resources for managing application configuration and sensitive data. ConfigMaps store non-confidential data in key-value pairs. Secrets are similar but intended for confidential data."/>
     </eAnnotations>

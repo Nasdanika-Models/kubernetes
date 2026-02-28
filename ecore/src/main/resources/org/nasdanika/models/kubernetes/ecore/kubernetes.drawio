@@ -1,0 +1,94 @@
+<mxfile compressed="false" host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram id="1cc1c25d-818c-4097-98dc-04ff29e839cc" name="Telemetry">
+    <mxGraphModel dx="3346" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Cluster" link="references/eClassifiers/Cluster/index.html" id="032c6704-1d30-4ea3-ab2b-03abf9ef04b7">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="670.0010128769104" y="229.99674961604984" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Node" link="references/eClassifiers/Node/index.html" id="1b7aa37a-30c8-47b9-b1c3-ece0deee2141">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="900.0047167664237" y="229.9936846653115" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="nodes" link="references/eClassifiers/Cluster/references/eStructuralFeatures/nodes/index.html" id="97090508-b5e8-4297-962a-c9a1320e8641">
+          <mxCell edge="1" parent="1" source="032c6704-1d30-4ea3-ab2b-03abf9ef04b7" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="1b7aa37a-30c8-47b9-b1c3-ece0deee2141">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Resource" link="references/eClassifiers/Resource/index.html" id="2b24eba2-a847-453c-891d-310a659ee7ff">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="669.999530182135" y="99.9973210314605" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="d7d1b177-e4e2-4bbe-8933-b07dfca585a9" edge="1" parent="1" source="1b7aa37a-30c8-47b9-b1c3-ece0deee2141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="2b24eba2-a847-453c-891d-310a659ee7ff">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="180" />
+              <mxPoint x="730" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="88cd1534-20e1-42eb-9e53-2faad2ca16e9" edge="1" parent="1" source="032c6704-1d30-4ea3-ab2b-03abf9ef04b7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="2b24eba2-a847-453c-891d-310a659ee7ff">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Namespace" link="references/eClassifiers/Namespace/index.html" id="ea38ef77-d61d-4145-89fb-0a23a65f07cc">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="420.0033252598331" y="229.99253894167884" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="429a88ac-e89d-4cd1-85a3-0e2e75ebd437" edge="1" parent="1" source="ea38ef77-d61d-4145-89fb-0a23a65f07cc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0" target="2b24eba2-a847-453c-891d-310a659ee7ff">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="180" />
+              <mxPoint x="730" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <object label="namespaces" link="references/eClassifiers/Cluster/references/eStructuralFeatures/namespaces/index.html" id="2f826223-8ad5-48da-8382-e64b1ba015b1">
+          <mxCell edge="1" parent="1" source="032c6704-1d30-4ea3-ab2b-03abf9ef04b7" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="ea38ef77-d61d-4145-89fb-0a23a65f07cc">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Taint" link="references/eClassifiers/Taint/index.html" id="9527c384-c43f-440f-9d5e-849b45b64e8a">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="900.0073230317593" y="330.0011801034862" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="taints" link="references/eClassifiers/Node/references/eStructuralFeatures/taints/index.html" id="40c1873b-5d9c-4e7e-b650-5485c06d3a44">
+          <mxCell edge="1" parent="1" source="1b7aa37a-30c8-47b9-b1c3-ece0deee2141" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="9527c384-c43f-440f-9d5e-849b45b64e8a">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="LabelSelector" link="references/eClassifiers/LabelSelector/index.html" id="cbd919ae-786d-4360-b30e-08a32942b7cf">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="900.003715656605" y="19.99888172614544" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="KeyValuePair" link="references/eClassifiers/KeyValuePair/index.html" id="e61946b4-10f2-4a07-b371-2968617b1239">
+          <mxCell parent="1" vertex="1">
+            <mxGeometry height="30" width="120" x="900.0016368892402" y="99.99531213257876" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="matchLabels" link="references/eClassifiers/LabelSelector/references/eStructuralFeatures/matchLabels/index.html" id="4966108c-a7ff-460d-8aa2-2913a3420198">
+          <mxCell edge="1" parent="1" source="cbd919ae-786d-4360-b30e-08a32942b7cf" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="e61946b4-10f2-4a07-b371-2968617b1239">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="labels" link="references/eClassifiers/Resource/references/eStructuralFeatures/labels/index.html" id="1c5030c0-e922-42cf-8932-739bb2526e86">
+          <mxCell edge="1" parent="1" source="2b24eba2-a847-453c-891d-310a659ee7ff" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="e61946b4-10f2-4a07-b371-2968617b1239">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="annotations" link="references/eClassifiers/Resource/references/eStructuralFeatures/annotations/index.html" id="8425b982-8c50-4e74-8c17-fdae85cce1b1">
+          <mxCell edge="1" parent="1" source="2b24eba2-a847-453c-891d-310a659ee7ff" style="rounded=0;orthogonalLoop=1;jettySize=1;html=1;startArrow=diamondThin;startFill=1" target="e61946b4-10f2-4a07-b371-2968617b1239">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

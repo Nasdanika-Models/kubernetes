@@ -4,7 +4,7 @@
     creationIcons="false" editorDirectory="" modelPluginID="org.nasdanika.models.kubernetes"
     modelName="Kubernetes" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
     importerID="org.eclipse.emf.importer.ecore" bundleManifest="false" featureDelegation="Dynamic"
-    complianceLevel="17.0" suppressGenModelAnnotations="false" copyrightFields="false"
+    complianceLevel="21.0" suppressGenModelAnnotations="false" copyrightFields="false"
     operationReflection="true" importOrganizing="true">
   <foreignModel>kubernetes.ecore</foreignModel>
   <genPackages prefix="Kubernetes" basePackage="org.nasdanika.models" disposableProviderFactory="true"
@@ -54,7 +54,8 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Taint/value"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//Taint/effect"/>
     </genClasses>
-    <nestedGenPackages prefix="Workloads" disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//workloads">
+    <nestedGenPackages prefix="Workloads" basePackage="org.nasdanika.models.kubernetes"
+        disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//workloads">
       <genClasses ecoreClass="kubernetes.ecore#//workloads/Container">
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Container/name"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/Container/image"/>
@@ -145,7 +146,8 @@
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//workloads/CronJob/suspend"/>
       </genClasses>
     </nestedGenPackages>
-    <nestedGenPackages prefix="Networking" disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//networking">
+    <nestedGenPackages prefix="Networking" basePackage="org.nasdanika.models.kubernetes"
+        disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//networking">
       <genClasses ecoreClass="kubernetes.ecore#//networking/Service">
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//networking/Service/selector"/>
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//networking/Service/ports"/>
@@ -175,7 +177,8 @@
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//networking/HTTPIngressPath/servicePort"/>
       </genClasses>
     </nestedGenPackages>
-    <nestedGenPackages prefix="Storage" disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//storage">
+    <nestedGenPackages prefix="Storage" basePackage="org.nasdanika.models.kubernetes"
+        disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//storage">
       <genClasses ecoreClass="kubernetes.ecore#//storage/PersistentVolume">
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//storage/PersistentVolume/capacity"/>
         <genFeatures createChild="false" ecoreFeature="ecore:EAttribute kubernetes.ecore#//storage/PersistentVolume/accessModes"/>
@@ -194,7 +197,8 @@
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//storage/StorageClass/parameters"/>
       </genClasses>
     </nestedGenPackages>
-    <nestedGenPackages prefix="Configuration" disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//configuration">
+    <nestedGenPackages prefix="Configuration" basePackage="org.nasdanika.models.kubernetes"
+        disposableProviderFactory="true" ecorePackage="kubernetes.ecore#//configuration">
       <genClasses ecoreClass="kubernetes.ecore#//configuration/ConfigMap">
         <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference kubernetes.ecore#//configuration/ConfigMap/data"/>
       </genClasses>
